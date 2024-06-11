@@ -15,3 +15,5 @@ export const getProducts = async () => {
   }
 };
 */
+
+export {};

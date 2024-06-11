@@ -15,3 +15,4 @@ export const getAddressByCep = async (cep: string) => {
   }
 };
 */
+export {};
