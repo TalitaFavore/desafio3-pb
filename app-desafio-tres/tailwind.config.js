@@ -13,8 +13,19 @@ module.exports = {
       black: "#000000",
       black2: "#242424",
       gray: "#9F9F9F",
-   
     },
+
+    fontFamily: {
+      poppins: ['Poppins', 'sans-serif'],
+    },
+
+    fontWeight: {
+      regular: 400,
+      medium: 500,
+      semibold: 600,
+      bold: 700,
+    },
+    
   },
   plugins: [],
 }
