@@ -3,7 +3,7 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: { 
+    extend: {
       colors: {
       sand: "#FCF8F3",
       sand3: "#FFF3E3",
@@ -13,7 +13,7 @@ module.exports = {
       black: "#000000",
       black2: "#242424",
       gray: "#9F9F9F",
-    
+   
     },
   },
   plugins: [],
