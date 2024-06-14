@@ -8,13 +8,16 @@ interface Product {
   shortDescription: string;
   price: number;
   image: string;
+  new: boolean;
+  sale: boolean;
+  discount: number;
 }
 
 interface ProductListProps {
   displayCount: number;
 }
 
-function ProductList({ displayCount }: ProductListProps) {
+const ProductList = ({ displayCount }: ProductListProps) => {
   const [products, setProducts] = useState<Product[]>([]);
 
   useEffect(() => {
@@ -31,12 +34,12 @@ function ProductList({ displayCount }: ProductListProps) {
   }, [displayCount]);
 
   return (
-    <div className="flex flex-wrap justify-center">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
       {products.map((product) => (
         <ProductsCard key={product.id} product={product} />
       ))}
     </div>
   );
-}
+};
 
 export default ProductList;
