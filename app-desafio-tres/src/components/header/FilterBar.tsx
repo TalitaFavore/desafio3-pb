@@ -2,7 +2,7 @@ import React from "react";
 
 const FilterBar = () => {
   return (
-    <div className="flex justify-between pl-20 pr-10 pb-7 pt-7 bg-secondary">
+    <div className="flex justify-between pl-32 pb-7 pt-7 mb-12 bg-secondary font-poppins">
       <div className="flex w-1/3 justify-between items-center">
         <img
           src="https://pb-desafio3.s3.us-east-2.amazonaws.com/filter.svg"
