@@ -5,6 +5,7 @@ import BrowseSections from '../components/browseSections/BrowseSections';
 import Inspiration from '../components/inspiration/Inspiration';
 import HomeProducts from '../components/productsCard/HomeProducts';
 import Share from '../components/share/Share';
+import Footer from '../components/footer/Footer';
 
 function HomeScreen() {
   return (
@@ -15,7 +16,7 @@ function HomeScreen() {
       <HomeProducts />
       <Inspiration />
       <Share/>
-      <p>Hello world!</p>
+      <Footer/>
     </div>
   );
 }
