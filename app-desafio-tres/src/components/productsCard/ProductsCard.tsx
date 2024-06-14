@@ -14,11 +14,13 @@ interface ProductsCardProps {
 
 function ProductsCard({ product }: ProductsCardProps) {
   return (
-    <div>
-      <img src={product.image} alt={product.name} />
-      <h3>{product.name}</h3>
-      <p>{product.shortDescription}</p>
-      <p>Price: Rp {product.price.toLocaleString()}</p>
+    <div className="max-w-sm overflow-hidden bg-gray3 m-2 text-gray4">
+      <img className="w-full" src={product.image} alt={product.name} />
+      <div className="pl-6 pr-6 pt-4 pb-4 mb-2">
+        <div className="font-bold text-xl">{product.name}</div>
+        <p className="text-gray5">{product.shortDescription}</p>
+        <p>Rp {product.price.toLocaleString()}</p>
+      </div>
     </div>
   );
 }

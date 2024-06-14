@@ -31,7 +31,7 @@ function ProductList({ displayCount }: ProductListProps) {
   }, [displayCount]);
 
   return (
-    <div className="product-list">
+    <div className="flex flex-wrap justify-center">
       {products.map((product) => (
         <ProductsCard key={product.id} product={product} />
       ))}

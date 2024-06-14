@@ -12,6 +12,11 @@ module.exports = {
         black2: "#242424",
         gray: "#9F9F9F",
         gray2: "#333333",
+        gray3: "#F4F5F7",
+        gray4: "#3A3A3A",
+        gray5: "#898989"
+        
+        
       },
 
       fontFamily: {
