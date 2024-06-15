@@ -3,9 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="font-poppins text-xs text-black pb-14">
-      <div className="mt-14">
-        <hr className="border-gray8" />
-      </div>
+      <hr className="border-gray8" />
       <div className="flex flex-col md:flex-row mt-10 ml-14 mr-40 justify-between">
         <div className="flex flex-col mb-10">
           <h1 className="font-bold text-3xl md:text-xl mb-10">Funiro.</h1>

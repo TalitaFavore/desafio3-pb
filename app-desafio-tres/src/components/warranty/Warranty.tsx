@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 interface WarrantyProps {
   image: string;
@@ -8,10 +8,12 @@ interface WarrantyProps {
 
 const Warranty = ({ image, title, subtitle }: WarrantyProps) => {
   return (
-    <div>
+    <div className="flex flex-row">
       <img src={image} alt="" />
-      <h1>{title}</h1>
-      <h2>{subtitle}</h2>
+      <div className="flex flex-col ml-4 font-poppins">
+        <h1 className="font-semibold text-xl text-black2">{title}</h1>
+        <h2 className="text-gray5 font-medium text-lg">{subtitle}</h2>
+      </div>
     </div>
   );
 };

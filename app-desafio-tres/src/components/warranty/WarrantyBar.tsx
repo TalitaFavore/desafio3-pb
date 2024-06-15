@@ -3,7 +3,7 @@ import Warranty from "./Warranty";
 
 const WarrantyBar = () => {
   return (
-    <div>
+    <div className="flex flex-row justify-between pl-10 pr-10 pt-20 pb-20 bg-sand4 ">
       <Warranty
         image="https://pb-desafio3.s3.us-east-2.amazonaws.com/trophy.png"
         title="High Quality"
