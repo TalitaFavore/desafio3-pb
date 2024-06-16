@@ -2,13 +2,14 @@ import React from "react";
 
 const Description = () => {
   return (
-    <main>
-      <div>
-        <h1>Description</h1>
-        <h1>Additional Information</h1>
+    <main className="flex flex-col font-poppins">
+      <hr className="border-gray8" />
+      <div className="flex gap-36 m-auto text-xl mt-10 mb-10">
+        <h1 className="font-medium">Description</h1>
+        <h1 className="text-gray">Additional Information</h1>
       </div>
 
-      <div>
+      <div className="flex flex-col m-auto w-4/6 gap-6 text-gray text-justify">
         <p>
           Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn
           portable active stereo speaker takes the unmistakable look and sound
@@ -26,7 +27,7 @@ const Description = () => {
         </p>
       </div>
 
-      <div>
+      <div className="flex gap-4 m-auto mt-10 mb-14">
         <img
           src="https://pb-desafio3.s3.us-east-2.amazonaws.com/whitesofa.png"
           alt=""
@@ -36,6 +37,7 @@ const Description = () => {
           alt=""
         />
       </div>
+      <hr className="border-gray8" />
     </main>
   );
 };
