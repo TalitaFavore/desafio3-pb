@@ -5,6 +5,7 @@ import {
   createUserWithEmailAndPassword,
   signInWithPopup,
   GoogleAuthProvider,
+  FacebookAuthProvider,
 } from "firebase/auth";
 import { auth } from "../../services/connectionFirebase";
 
@@ -17,7 +18,11 @@ const Login: React.FC = () => {
   const handleAuthAction = async () => {
     if (isLogin) {
       try {
-        const userCredential = await signInWithEmailAndPassword(auth, email, password);
+        const userCredential = await signInWithEmailAndPassword(
+          auth,
+          email,
+          password
+        );
         console.log("User Info: ", userCredential.user);
         navigate("/");
       } catch (error) {
@@ -25,7 +30,11 @@ const Login: React.FC = () => {
       }
     } else {
       try {
-        const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+        const userCredential = await createUserWithEmailAndPassword(
+          auth,
+          email,
+          password
+        );
         console.log("User created: ", userCredential.user);
         navigate("/");
       } catch (error) {
@@ -45,11 +54,22 @@ const Login: React.FC = () => {
     }
   };
 
+  const handleFacebookLogin = async () => {
+    const provider = new FacebookAuthProvider();
+    try {
+      const userCredential = await signInWithPopup(auth, provider);
+      console.log("User Info: ", userCredential.user);
+      navigate("/");
+    } catch (error) {
+      console.error("Error during Facebook login: ", error);
+    }
+  };
+
   return (
-    <body className="flex justify-center items-center h-screen bg-gray-100">
+    <div className="flex justify-center items-center h-screen bg-gray-100">
       <div className="flex flex-col md:flex-row justify-center items-center rounded-xl bg-secondary m-4 w-full md:w-2/3 lg:w-1/2 p-6 md:p-10 gap-6 md:gap-14">
         <h1 className="text-3xl font-bold w-full md:w-1/3 mb-6 text-black2 text-center md:text-left">
-          Descubra conforto! Entre agora!
+          Discover comfort! Sign in now!
         </h1>
         <div className="w-full md:w-2/3">
           <p>Email:</p>
@@ -76,7 +96,10 @@ const Login: React.FC = () => {
               Google
             </button>
 
-            <button className="bg-blue-500 text-white px-2 md:px-4 py-2 rounded-md mb-4 w-1/3 md:w-auto">
+            <button
+              onClick={handleFacebookLogin}
+              className="bg-blue-500 text-white px-2 md:px-4 py-2 rounded-md mb-4 w-1/3 md:w-auto"
+            >
               Facebook
             </button>
 
@@ -98,7 +121,7 @@ const Login: React.FC = () => {
           </p>
         </div>
       </div>
-    </body>
+    </div>
   );
 };
 
