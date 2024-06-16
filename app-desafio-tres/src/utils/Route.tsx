@@ -5,6 +5,7 @@ import LoginScreen from '../pages/LoginScreen';
 import ShopScreen from '../pages/ShopScreen';
 import ContactScreen from '../pages/ContactScreen';
 import SingleProductScreen from '../pages/SingleProductScreen';
+import ErrorScreen from '../pages/ErrorScreen';
 
 const AppRoutes: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const AppRoutes: React.FC = () => {
       <Route path="/shop" element={<ShopScreen />} />
       <Route path="/contact" element={<ContactScreen />} />
       <Route path="/single" element={<SingleProductScreen />} />
+      <Route path="/error" element={<ErrorScreen />} />
     </Routes>
   );
 };
