@@ -6,11 +6,11 @@ import Footer from '../components/footer/Footer'
 const SingleProductScreen = () => {
   return (
     <div>
-        <Navbar/>
+      <Navbar/>
       <Description/>
       <Footer/>
     </div>
   )
 }
 
-export default SingleProductScreen
+export default SingleProductScreen;

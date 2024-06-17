@@ -6,6 +6,7 @@ import ShopScreen from '../pages/ShopScreen';
 import ContactScreen from '../pages/ContactScreen';
 import SingleProductScreen from '../pages/SingleProductScreen';
 import ErrorScreen from '../pages/ErrorScreen';
+import CheckoutScreen from '../pages/CheckoutScreen';
 
 const AppRoutes: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const AppRoutes: React.FC = () => {
       <Route path="/contact" element={<ContactScreen />} />
       <Route path="/single" element={<SingleProductScreen />} />
       <Route path="/error" element={<ErrorScreen />} />
+      <Route path="/checkout" element={<CheckoutScreen />} />
     </Routes>
   );
 };
