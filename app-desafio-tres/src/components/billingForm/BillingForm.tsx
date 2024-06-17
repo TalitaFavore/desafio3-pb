@@ -4,7 +4,6 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { z, TypeOf } from "zod";
 import axios from "axios";
 
-// Define the Zod schema
 const billingSchema = z.object({
   firstName: z.string().min(1, { message: "First Name is required" }),
   lastName: z.string().min(1, { message: "Last Name is required" }),
@@ -22,7 +21,6 @@ const billingSchema = z.object({
   additionalInfo: z.string().optional(),
 });
 
-// Define the TypeScript type from the schema
 type BillingFormData = TypeOf<typeof billingSchema>;
 
 const BillingForm = () => {
