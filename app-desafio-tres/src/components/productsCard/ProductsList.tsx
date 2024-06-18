@@ -16,6 +16,8 @@ interface Product {
 interface ProductListProps {
   productsPerPage: number;
   currentPage: number;
+  productsPerPage: number;
+  currentPage: number;
 }
  
 const ProductsList = ({ currentPage }: ProductListProps) => {
@@ -38,6 +40,8 @@ const ProductsList = ({ currentPage }: ProductListProps) => {
  
   useEffect(() => {
     const fetchProducts = async () => {
+      setLoading(true);
+      setError(null);
       try {
         const response = await axios.get(endpoints[currentPage - 1]);
         setProducts(response.data);
