@@ -1,6 +1,25 @@
 import React from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { EmailActionTypes } from "../../redux/types/emailTypes";
+import { RootState } from "../../redux/reducers";
 
 const Footer = () => {
+  const dispatch = useDispatch();
+  const email = useSelector((state: RootState) => state.email.email);
+
+  const handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const newEmail = event.target.value;
+    console.log("Antes:", email);
+    dispatch({ type: EmailActionTypes.SET_EMAIL, payload: newEmail });
+    console.log("Depois:", email);
+  };
+
+  const handleSubscribeClick = () => {
+    console.log("Antes:", email);
+    dispatch({ type: EmailActionTypes.SET_EMAIL, payload: email });
+    console.log("Depois:", email);
+  };
+
   return (
     <footer className="font-poppins text-xs text-black pb-14">
       <hr className="border-gray8" />
@@ -84,15 +103,17 @@ const Footer = () => {
           <div>
             <input
               type="text"
+              value={email}
+              onChange={handleEmailChange}
               placeholder="Enter Your Email Address"
               className="border-b border-black focus:outline-none w-3/5"
             />
-            <a
-              href="/"
-              className="hover:text-primary border-b border-black ml-2"
+            <button
+              onClick={handleSubscribeClick}
+              className="hover:text-primary border-b border-black ml-2 cursor-pointer"
             >
               SUBSCRIBE
-            </a>
+            </button>
           </div>
         </div>
       </div>
