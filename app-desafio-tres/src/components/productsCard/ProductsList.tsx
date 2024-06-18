@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
-import ProductsCard from "./ProductsCard";
-import { getProducts } from "../../services/connectionRunMocky";
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import ProductsCard from './ProductsCard';
 
 interface Product {
   id: number;
@@ -14,32 +14,50 @@ interface Product {
 }
 
 interface ProductListProps {
-  displayCount: number;
+  productsPerPage: number;
+  currentPage: number;
 }
 
-const ProductList = ({ displayCount }: ProductListProps) => {
+const ProductsList = ({ currentPage, productsPerPage }: ProductListProps) => {
   const [products, setProducts] = useState<Product[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchProducts = async () => {
+      setLoading(true);
+      setError(null);
       try {
-        const productsData = await getProducts();
-        setProducts(productsData.slice(0, displayCount));
-      } catch (error) {
-        console.error("Error fetching products:", error);
+        const response = await axios.get('http://localhost:4000/products'); // Atualize a URL conforme necessário
+        setProducts(response.data);
+      } catch (error: any) {
+        setError('Error fetching products');
+      } finally {
+        setLoading(false);
       }
     };
 
     fetchProducts();
-  }, [displayCount]);
+  }, []);
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>{error}</div>;
+  }
+
+  const startIndex = (currentPage - 1) * productsPerPage;
+  const currentProducts = products.slice(startIndex, startIndex + productsPerPage);
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-      {products.map((product) => (
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+      {currentProducts.map((product) => (
         <ProductsCard key={product.id} product={product} />
       ))}
     </div>
   );
 };
 
-export default ProductList;
+export default ProductsList;
