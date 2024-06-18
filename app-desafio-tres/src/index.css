@@ -5,6 +5,16 @@
 @tailwind utilities;
 
 .bg-custom {
-    @apply bg-cover bg-center;
-    background-image: url('https://pb-desafio3.s3.us-east-2.amazonaws.com/hero.jpg');
-  }
+  @apply bg-cover bg-center;
+  background-image: url('https://pb-desafio3.s3.us-east-2.amazonaws.com/hero.jpg');
+}
+
+.bg-custom2 {
+  @apply bg-cover bg-center;
+  background-image: url('https://pb-desafio3.s3.us-east-2.amazonaws.com/header.png');
+}
+
+.bg-custom3 {
+  @apply bg-cover bg-center;
+  background-image: url('https://pb-desafio3.s3.us-east-2.amazonaws.com/error.jpg');
+}

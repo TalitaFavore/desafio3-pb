@@ -1,16 +1,17 @@
 import React from 'react'
-import Description from '../components/description/Description'
+import Error from '../components/error/Error'
 import Navbar from '../components/header/Navbar'
 import Footer from '../components/footer/Footer'
 
-const SingleProductScreen = () => {
+const ErrorScreen = () => {
   return (
     <div>
-      <Navbar/>
-      <Description/>
+        <Navbar/>
+      <Error/>
       <Footer/>
+
     </div>
   )
 }
 
-export default SingleProductScreen;
+export default ErrorScreen

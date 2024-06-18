@@ -12,8 +12,10 @@ interface Product {
   sale: boolean;
   discount: number;
 }
-
+ 
 interface ProductListProps {
+  productsPerPage: number;
+  currentPage: number;
   productsPerPage: number;
   currentPage: number;
 }
@@ -36,7 +38,7 @@ const ProductsList = ({ currentPage, productsPerPage }: ProductListProps) => {
         setLoading(false);
       }
     };
-
+ 
     fetchProducts();
   }, []);
 

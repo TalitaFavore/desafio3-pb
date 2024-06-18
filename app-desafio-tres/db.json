@@ -1,0 +1,5224 @@
+{
+    "products": [
+    {
+        "id": 1,
+        "name": "Syltherine",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "discount": 30,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 3500000,
+        "SKU": "SS001",
+        "category": [
+            "table",
+            "chair"
+        ],
+        "tags": [
+            "table",
+            "chair",
+            "dinning",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/syltherine.png"
+    },
+    {
+        "id": 2,
+        "name": "Leviosa",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Crafted with a blend of modern aesthetics and ergonomic functionality, this armchair is designed to elevate any living space. Its sleek profile and sturdy frame are upholstered in premium fabric, offering both durability and style. The chair's gently sloped arms and plush cushioning provide exceptional comfort, making it an ideal choice for reading nooks or as a stylish accent piece in a contemporary home.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 2500000,
+        "SKU": "SS002",
+        "category": [
+            "chair"
+        ],
+        "tags": [
+            "chair",
+            "indoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/leviosa.png"
+    },
+    {
+        "id": 3,
+        "name": "Lolito",
+        "shortDescription": "Luxury big sofa",
+        "description": "Transform your living room into a sanctuary of comfort and style with our luxury big sofa. Crafted from the finest materials, this sofa exudes elegance with its plush upholstery and sophisticated design. Sink into its deep cushions and experience unparalleled relaxation while enjoying its generous seating space. Perfect for entertaining guests or lounging with your loved ones, this statement piece effortlessly combines opulence with functionality, elevating your home decor to new heights of luxury.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 4.5,
+        "price": 14000000,
+        "SKU": "SS003",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/lolito.png"
+    },
+    {
+        "id": 4,
+        "name": "Respira",
+        "shortDescription": "Outdoor bar table and stool",
+        "description": "Transform your living room with this minimalist coffee table that merges practicality with modern aesthetics. Crafted with a polished marble top and sleek metal legs, it brings a sense of refinement to any decor. The spacious surface is ideal for displaying books or decor items, while the clean lines and sturdy construction ensure durability and style. Elevate your home with this versatile piece that complements both classic and contemporary interiors.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 3.5,
+        "price": 500000,
+        "SKU": "SS004",
+        "category": [
+            "table"
+        ],
+        "tags": [
+            "table",
+            "outdoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/respira.png"
+    },
+    {
+        "id": 5,
+        "name": "Grifo",
+        "shortDescription": "Night lamp",
+        "description": "Add a touch of artisanal elegance to your space with this ceramic-based table lamp. Featuring a hand-glazed finish and a linen drum shade, this lamp exudes sophistication and charm. Its sculptural base adds visual interest, while the soft glow from the shade creates a warm ambiance. Perfect for bedside tables or cozy corners, this lamp combines form and function seamlessly.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 1500000,
+        "SKU": "SS005",
+        "category": [
+            "lamp"
+        ],
+        "tags": [
+            "lamp",
+            "decoration",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/grifo.png"
+    },
+    {
+        "id": 6,
+        "name": "Muggo",
+        "shortDescription": "Small mug",
+        "description": "Enjoy your morning brew in style with this charming ceramic mug. Featuring a sleek, ergonomic design and a glossy finish, it offers a comfortable grip and keeps your favorite beverage warm. Whether you prefer coffee, tea, or hot chocolate, this versatile mug is the perfect companion for your daily routines, adding a touch of warmth and elegance to your kitchen or office.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.5,
+        "price": 150000,
+        "SKU": "SS006",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/muggo.png"
+    },
+    {
+        "id": 7,
+        "name": "Pingky",
+        "shortDescription": "Cute bed set",
+        "description": "Create a versatile seating arrangement with this luxurious sectional sofa that embodies comfort and style. Upholstered in durable linen fabric, it features a reversible chaise for flexibility in room layout. The deep seats and plush cushions offer ample support and relaxation, making it perfect for lounging or entertaining guests. With its modern design and spacious configuration, this sofa effortlessly enhances any living room with its blend of functionality and sophistication.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 14000000,
+        "SKU": "SS007",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "home",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/pingky.png"
+    },
+    {
+        "id": 8,
+        "name": "Potty",
+        "shortDescription": "Minimalist flower pot",
+        "description": "Enhance your indoor plants with this elegant ceramic vase. Its minimalist design and matte finish blend seamlessly with any decor, from modern to Scandinavian styles. Crafted from durable ceramic, it offers a sleek backdrop for showcasing your favorite houseplants or floral arrangements, adding a touch of sophistication to your living space.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.0,
+        "price": 500000,
+        "SKU": "SS008",
+        "category": [
+            "decoration"
+        ],
+        "tags": [
+            "decoration",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/potty.png"
+    },
+    {
+        "id": 9,
+        "name": "Syltherine",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "discount": 30,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 3500000,
+        "SKU": "SS001",
+        "category": [
+            "table",
+            "chair"
+        ],
+        "tags": [
+            "table",
+            "chair",
+            "dinning",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/syltherine.png"
+    },
+    {
+        "id": 10,
+        "name": "Leviosa",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Crafted with a blend of modern aesthetics and ergonomic functionality, this armchair is designed to elevate any living space. Its sleek profile and sturdy frame are upholstered in premium fabric, offering both durability and style. The chair's gently sloped arms and plush cushioning provide exceptional comfort, making it an ideal choice for reading nooks or as a stylish accent piece in a contemporary home.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 2500000,
+        "SKU": "SS002",
+        "category": [
+            "chair"
+        ],
+        "tags": [
+            "chair",
+            "indoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/leviosa.png"
+    },
+    {
+        "id": 11,
+        "name": "Lolito",
+        "shortDescription": "Luxury big sofa",
+        "description": "Transform your living room into a sanctuary of comfort and style with our luxury big sofa. Crafted from the finest materials, this sofa exudes elegance with its plush upholstery and sophisticated design. Sink into its deep cushions and experience unparalleled relaxation while enjoying its generous seating space. Perfect for entertaining guests or lounging with your loved ones, this statement piece effortlessly combines opulence with functionality, elevating your home decor to new heights of luxury.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 4.5,
+        "price": 14000000,
+        "SKU": "SS003",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/lolito.png"
+    },
+    {
+        "id": 12,
+        "name": "Respira",
+        "shortDescription": "Outdoor bar table and stool",
+        "description": "Transform your living room with this minimalist coffee table that merges practicality with modern aesthetics. Crafted with a polished marble top and sleek metal legs, it brings a sense of refinement to any decor. The spacious surface is ideal for displaying books or decor items, while the clean lines and sturdy construction ensure durability and style. Elevate your home with this versatile piece that complements both classic and contemporary interiors.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 3.5,
+        "price": 500000,
+        "SKU": "SS004",
+        "category": [
+            "table"
+        ],
+        "tags": [
+            "table",
+            "outdoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/respira.png"
+    },
+    {
+        "id": 13,
+        "name": "Grifo",
+        "shortDescription": "Night lamp",
+        "description": "Add a touch of artisanal elegance to your space with this ceramic-based table lamp. Featuring a hand-glazed finish and a linen drum shade, this lamp exudes sophistication and charm. Its sculptural base adds visual interest, while the soft glow from the shade creates a warm ambiance. Perfect for bedside tables or cozy corners, this lamp combines form and function seamlessly.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 1500000,
+        "SKU": "SS005",
+        "category": [
+            "lamp"
+        ],
+        "tags": [
+            "lamp",
+            "decoration",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/grifo.png"
+    },
+    {
+        "id": 14,
+        "name": "Muggo",
+        "shortDescription": "Small mug",
+        "description": "Enjoy your morning brew in style with this charming ceramic mug. Featuring a sleek, ergonomic design and a glossy finish, it offers a comfortable grip and keeps your favorite beverage warm. Whether you prefer coffee, tea, or hot chocolate, this versatile mug is the perfect companion for your daily routines, adding a touch of warmth and elegance to your kitchen or office.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.5,
+        "price": 150000,
+        "SKU": "SS006",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/muggo.png"
+    },
+    {
+        "id": 15,
+        "name": "Pingky",
+        "shortDescription": "Cute bed set",
+        "description": "Create a versatile seating arrangement with this luxurious sectional sofa that embodies comfort and style. Upholstered in durable linen fabric, it features a reversible chaise for flexibility in room layout. The deep seats and plush cushions offer ample support and relaxation, making it perfect for lounging or entertaining guests. With its modern design and spacious configuration, this sofa effortlessly enhances any living room with its blend of functionality and sophistication.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 14000000,
+        "SKU": "SS007",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "home",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/pingky.png"
+    },
+    {
+        "id": 16,
+        "name": "Potty",
+        "shortDescription": "Minimalist flower pot",
+        "description": "Enhance your indoor plants with this elegant ceramic vase. Its minimalist design and matte finish blend seamlessly with any decor, from modern to Scandinavian styles. Crafted from durable ceramic, it offers a sleek backdrop for showcasing your favorite houseplants or floral arrangements, adding a touch of sophistication to your living space.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.0,
+        "price": 500000,
+        "SKU": "SS008",
+        "category": [
+            "decoration"
+        ],
+        "tags": [
+            "decoration",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/potty.png"
+    },
+    {
+        "id": 17,
+        "name": "Potty",
+        "shortDescription": "Minimalist flower pot",
+        "description": "Enhance your indoor plants with this elegant ceramic vase. Its minimalist design and matte finish blend seamlessly with any decor, from modern to Scandinavian styles. Crafted from durable ceramic, it offers a sleek backdrop for showcasing your favorite houseplants or floral arrangements, adding a touch of sophistication to your living space.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.0,
+        "price": 500000,
+        "SKU": "SS008",
+        "category": [
+            "decoration"
+        ],
+        "tags": [
+            "decoration",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/potty.png"
+    },
+    {
+        "id": 18,
+        "name": "Pingky",
+        "shortDescription": "Cute bed set",
+        "description": "Create a versatile seating arrangement with this luxurious sectional sofa that embodies comfort and style. Upholstered in durable linen fabric, it features a reversible chaise for flexibility in room layout. The deep seats and plush cushions offer ample support and relaxation, making it perfect for lounging or entertaining guests. With its modern design and spacious configuration, this sofa effortlessly enhances any living room with its blend of functionality and sophistication.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 14000000,
+        "SKU": "SS007",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "home",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/pingky.png"
+    },
+    {
+        "id": 19,
+        "name": "Muggo",
+        "shortDescription": "Small mug",
+        "description": "Enjoy your morning brew in style with this charming ceramic mug. Featuring a sleek, ergonomic design and a glossy finish, it offers a comfortable grip and keeps your favorite beverage warm. Whether you prefer coffee, tea, or hot chocolate, this versatile mug is the perfect companion for your daily routines, adding a touch of warmth and elegance to your kitchen or office.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.5,
+        "price": 150000,
+        "SKU": "SS006",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/muggo.png"
+    },
+    {
+        "id": 20,
+        "name": "Grifo",
+        "shortDescription": "Night lamp",
+        "description": "Add a touch of artisanal elegance to your space with this ceramic-based table lamp. Featuring a hand-glazed finish and a linen drum shade, this lamp exudes sophistication and charm. Its sculptural base adds visual interest, while the soft glow from the shade creates a warm ambiance. Perfect for bedside tables or cozy corners, this lamp combines form and function seamlessly.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 1500000,
+        "SKU": "SS005",
+        "category": [
+            "lamp"
+        ],
+        "tags": [
+            "lamp",
+            "decoration",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/grifo.png"
+    },
+    {
+        "id": 21,
+        "name": "Respira",
+        "shortDescription": "Outdoor bar table and stool",
+        "description": "Transform your living room with this minimalist coffee table that merges practicality with modern aesthetics. Crafted with a polished marble top and sleek metal legs, it brings a sense of refinement to any decor. The spacious surface is ideal for displaying books or decor items, while the clean lines and sturdy construction ensure durability and style. Elevate your home with this versatile piece that complements both classic and contemporary interiors.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 3.5,
+        "price": 500000,
+        "SKU": "SS004",
+        "category": [
+            "table"
+        ],
+        "tags": [
+            "table",
+            "outdoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/respira.png"
+    },
+    {
+        "id": 22,
+        "name": "Lolito",
+        "shortDescription": "Luxury big sofa",
+        "description": "Transform your living room into a sanctuary of comfort and style with our luxury big sofa. Crafted from the finest materials, this sofa exudes elegance with its plush upholstery and sophisticated design. Sink into its deep cushions and experience unparalleled relaxation while enjoying its generous seating space. Perfect for entertaining guests or lounging with your loved ones, this statement piece effortlessly combines opulence with functionality, elevating your home decor to new heights of luxury.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 4.5,
+        "price": 14000000,
+        "SKU": "SS003",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/lolito.png"
+    },
+    {
+        "id": 23,
+        "name": "Leviosa",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Crafted with a blend of modern aesthetics and ergonomic functionality, this armchair is designed to elevate any living space. Its sleek profile and sturdy frame are upholstered in premium fabric, offering both durability and style. The chair's gently sloped arms and plush cushioning provide exceptional comfort, making it an ideal choice for reading nooks or as a stylish accent piece in a contemporary home.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 2500000,
+        "SKU": "SS002",
+        "category": [
+            "chair"
+        ],
+        "tags": [
+            "chair",
+            "indoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/leviosa.png"
+    },
+    {
+        "id": 24,
+        "name": "Syltherine",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "discount": 30,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 3500000,
+        "SKU": "SS001",
+        "category": [
+            "table",
+            "chair"
+        ],
+        "tags": [
+            "table",
+            "chair",
+            "dinning",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/syltherine.png"
+    },
+    {
+        "id": 25,
+        "name": "Potty",
+        "shortDescription": "Minimalist flower pot",
+        "description": "Enhance your indoor plants with this elegant ceramic vase. Its minimalist design and matte finish blend seamlessly with any decor, from modern to Scandinavian styles. Crafted from durable ceramic, it offers a sleek backdrop for showcasing your favorite houseplants or floral arrangements, adding a touch of sophistication to your living space.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.0,
+        "price": 500000,
+        "SKU": "SS008",
+        "category": [
+            "decoration"
+        ],
+        "tags": [
+            "decoration",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/potty.png"
+    },
+    {
+        "id": 26,
+        "name": "Pingky",
+        "shortDescription": "Cute bed set",
+        "description": "Create a versatile seating arrangement with this luxurious sectional sofa that embodies comfort and style. Upholstered in durable linen fabric, it features a reversible chaise for flexibility in room layout. The deep seats and plush cushions offer ample support and relaxation, making it perfect for lounging or entertaining guests. With its modern design and spacious configuration, this sofa effortlessly enhances any living room with its blend of functionality and sophistication.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 14000000,
+        "SKU": "SS007",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "home",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/pingky.png"
+    },
+    {
+        "id": 27,
+        "name": "Muggo",
+        "shortDescription": "Small mug",
+        "description": "Enjoy your morning brew in style with this charming ceramic mug. Featuring a sleek, ergonomic design and a glossy finish, it offers a comfortable grip and keeps your favorite beverage warm. Whether you prefer coffee, tea, or hot chocolate, this versatile mug is the perfect companion for your daily routines, adding a touch of warmth and elegance to your kitchen or office.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.5,
+        "price": 150000,
+        "SKU": "SS006",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/muggo.png"
+    },
+    {
+        "id": 28,
+        "name": "Grifo",
+        "shortDescription": "Night lamp",
+        "description": "Add a touch of artisanal elegance to your space with this ceramic-based table lamp. Featuring a hand-glazed finish and a linen drum shade, this lamp exudes sophistication and charm. Its sculptural base adds visual interest, while the soft glow from the shade creates a warm ambiance. Perfect for bedside tables or cozy corners, this lamp combines form and function seamlessly.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 1500000,
+        "SKU": "SS005",
+        "category": [
+            "lamp"
+        ],
+        "tags": [
+            "lamp",
+            "decoration",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/grifo.png"
+    },
+    {
+        "id": 29,
+        "name": "Respira",
+        "shortDescription": "Outdoor bar table and stool",
+        "description": "Transform your living room with this minimalist coffee table that merges practicality with modern aesthetics. Crafted with a polished marble top and sleek metal legs, it brings a sense of refinement to any decor. The spacious surface is ideal for displaying books or decor items, while the clean lines and sturdy construction ensure durability and style. Elevate your home with this versatile piece that complements both classic and contemporary interiors.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 3.5,
+        "price": 500000,
+        "SKU": "SS004",
+        "category": [
+            "table"
+        ],
+        "tags": [
+            "table",
+            "outdoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/respira.png"
+    },
+    {
+        "id": 30,
+        "name": "Lolito",
+        "shortDescription": "Luxury big sofa",
+        "description": "Transform your living room into a sanctuary of comfort and style with our luxury big sofa. Crafted from the finest materials, this sofa exudes elegance with its plush upholstery and sophisticated design. Sink into its deep cushions and experience unparalleled relaxation while enjoying its generous seating space. Perfect for entertaining guests or lounging with your loved ones, this statement piece effortlessly combines opulence with functionality, elevating your home decor to new heights of luxury.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 4.5,
+        "price": 14000000,
+        "SKU": "SS003",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/lolito.png"
+    },
+    {
+        "id": 31,
+        "name": "Leviosa",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Crafted with a blend of modern aesthetics and ergonomic functionality, this armchair is designed to elevate any living space. Its sleek profile and sturdy frame are upholstered in premium fabric, offering both durability and style. The chair's gently sloped arms and plush cushioning provide exceptional comfort, making it an ideal choice for reading nooks or as a stylish accent piece in a contemporary home.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 2500000,
+        "SKU": "SS002",
+        "category": [
+            "chair"
+        ],
+        "tags": [
+            "chair",
+            "indoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/leviosa.png"
+    },
+    {
+        "id": 32,
+        "name": "Syltherine",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "discount": 30,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 3500000,
+        "SKU": "SS001",
+        "category": [
+            "table",
+            "chair"
+        ],
+        "tags": [
+            "table",
+            "chair",
+            "dinning",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/syltherine.png"
+    },
+    {
+        "id": 33,
+        "name": "Syltherine",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "discount": 30,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 3500000,
+        "SKU": "SS001",
+        "category": [
+            "table",
+            "chair"
+        ],
+        "tags": [
+            "table",
+            "chair",
+            "dinning",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/syltherine.png"
+    },
+    {
+        "id": 34,
+        "name": "Leviosa",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Crafted with a blend of modern aesthetics and ergonomic functionality, this armchair is designed to elevate any living space. Its sleek profile and sturdy frame are upholstered in premium fabric, offering both durability and style. The chair's gently sloped arms and plush cushioning provide exceptional comfort, making it an ideal choice for reading nooks or as a stylish accent piece in a contemporary home.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 2500000,
+        "SKU": "SS002",
+        "category": [
+            "chair"
+        ],
+        "tags": [
+            "chair",
+            "indoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/leviosa.png"
+    },
+    {
+        "id": 35,
+        "name": "Lolito",
+        "shortDescription": "Luxury big sofa",
+        "description": "Transform your living room into a sanctuary of comfort and style with our luxury big sofa. Crafted from the finest materials, this sofa exudes elegance with its plush upholstery and sophisticated design. Sink into its deep cushions and experience unparalleled relaxation while enjoying its generous seating space. Perfect for entertaining guests or lounging with your loved ones, this statement piece effortlessly combines opulence with functionality, elevating your home decor to new heights of luxury.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 4.5,
+        "price": 14000000,
+        "SKU": "SS003",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/lolito.png"
+    },
+    {
+        "id": 36,
+        "name": "Respira",
+        "shortDescription": "Outdoor bar table and stool",
+        "description": "Transform your living room with this minimalist coffee table that merges practicality with modern aesthetics. Crafted with a polished marble top and sleek metal legs, it brings a sense of refinement to any decor. The spacious surface is ideal for displaying books or decor items, while the clean lines and sturdy construction ensure durability and style. Elevate your home with this versatile piece that complements both classic and contemporary interiors.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 3.5,
+        "price": 500000,
+        "SKU": "SS004",
+        "category": [
+            "table"
+        ],
+        "tags": [
+            "table",
+            "outdoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/respira.png"
+    },
+    {
+        "id": 37,
+        "name": "Grifo",
+        "shortDescription": "Night lamp",
+        "description": "Add a touch of artisanal elegance to your space with this ceramic-based table lamp. Featuring a hand-glazed finish and a linen drum shade, this lamp exudes sophistication and charm. Its sculptural base adds visual interest, while the soft glow from the shade creates a warm ambiance. Perfect for bedside tables or cozy corners, this lamp combines form and function seamlessly.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 1500000,
+        "SKU": "SS005",
+        "category": [
+            "lamp"
+        ],
+        "tags": [
+            "lamp",
+            "decoration",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/grifo.png"
+    },
+    {
+        "id": 38,
+        "name": "Muggo",
+        "shortDescription": "Small mug",
+        "description": "Enjoy your morning brew in style with this charming ceramic mug. Featuring a sleek, ergonomic design and a glossy finish, it offers a comfortable grip and keeps your favorite beverage warm. Whether you prefer coffee, tea, or hot chocolate, this versatile mug is the perfect companion for your daily routines, adding a touch of warmth and elegance to your kitchen or office.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.5,
+        "price": 150000,
+        "SKU": "SS006",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/muggo.png"
+    },
+    {
+        "id": 39,
+        "name": "Pingky",
+        "shortDescription": "Cute bed set",
+        "description": "Create a versatile seating arrangement with this luxurious sectional sofa that embodies comfort and style. Upholstered in durable linen fabric, it features a reversible chaise for flexibility in room layout. The deep seats and plush cushions offer ample support and relaxation, making it perfect for lounging or entertaining guests. With its modern design and spacious configuration, this sofa effortlessly enhances any living room with its blend of functionality and sophistication.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 14000000,
+        "SKU": "SS007",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "home",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/pingky.png"
+    },
+    {
+        "id": 40,
+        "name": "Potty",
+        "shortDescription": "Minimalist flower pot",
+        "description": "Enhance your indoor plants with this elegant ceramic vase. Its minimalist design and matte finish blend seamlessly with any decor, from modern to Scandinavian styles. Crafted from durable ceramic, it offers a sleek backdrop for showcasing your favorite houseplants or floral arrangements, adding a touch of sophistication to your living space.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.0,
+        "price": 500000,
+        "SKU": "SS008",
+        "category": [
+            "decoration"
+        ],
+        "tags": [
+            "decoration",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/potty.png"
+    },
+    {
+        "id": 41,
+        "name": "Syltherine",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "discount": 30,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 3500000,
+        "SKU": "SS001",
+        "category": [
+            "table",
+            "chair"
+        ],
+        "tags": [
+            "table",
+            "chair",
+            "dinning",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/syltherine.png"
+    },
+    {
+        "id": 42,
+        "name": "Leviosa",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Crafted with a blend of modern aesthetics and ergonomic functionality, this armchair is designed to elevate any living space. Its sleek profile and sturdy frame are upholstered in premium fabric, offering both durability and style. The chair's gently sloped arms and plush cushioning provide exceptional comfort, making it an ideal choice for reading nooks or as a stylish accent piece in a contemporary home.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 2500000,
+        "SKU": "SS002",
+        "category": [
+            "chair"
+        ],
+        "tags": [
+            "chair",
+            "indoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/leviosa.png"
+    },
+    {
+        "id": 43,
+        "name": "Lolito",
+        "shortDescription": "Luxury big sofa",
+        "description": "Transform your living room into a sanctuary of comfort and style with our luxury big sofa. Crafted from the finest materials, this sofa exudes elegance with its plush upholstery and sophisticated design. Sink into its deep cushions and experience unparalleled relaxation while enjoying its generous seating space. Perfect for entertaining guests or lounging with your loved ones, this statement piece effortlessly combines opulence with functionality, elevating your home decor to new heights of luxury.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 4.5,
+        "price": 14000000,
+        "SKU": "SS003",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/lolito.png"
+    },
+    {
+        "id": 44,
+        "name": "Respira",
+        "shortDescription": "Outdoor bar table and stool",
+        "description": "Transform your living room with this minimalist coffee table that merges practicality with modern aesthetics. Crafted with a polished marble top and sleek metal legs, it brings a sense of refinement to any decor. The spacious surface is ideal for displaying books or decor items, while the clean lines and sturdy construction ensure durability and style. Elevate your home with this versatile piece that complements both classic and contemporary interiors.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 3.5,
+        "price": 500000,
+        "SKU": "SS004",
+        "category": [
+            "table"
+        ],
+        "tags": [
+            "table",
+            "outdoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/respira.png"
+    },
+    {
+        "id": 45,
+        "name": "Grifo",
+        "shortDescription": "Night lamp",
+        "description": "Add a touch of artisanal elegance to your space with this ceramic-based table lamp. Featuring a hand-glazed finish and a linen drum shade, this lamp exudes sophistication and charm. Its sculptural base adds visual interest, while the soft glow from the shade creates a warm ambiance. Perfect for bedside tables or cozy corners, this lamp combines form and function seamlessly.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 1500000,
+        "SKU": "SS005",
+        "category": [
+            "lamp"
+        ],
+        "tags": [
+            "lamp",
+            "decoration",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/grifo.png"
+    },
+    {
+        "id": 46,
+        "name": "Muggo",
+        "shortDescription": "Small mug",
+        "description": "Enjoy your morning brew in style with this charming ceramic mug. Featuring a sleek, ergonomic design and a glossy finish, it offers a comfortable grip and keeps your favorite beverage warm. Whether you prefer coffee, tea, or hot chocolate, this versatile mug is the perfect companion for your daily routines, adding a touch of warmth and elegance to your kitchen or office.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.5,
+        "price": 150000,
+        "SKU": "SS006",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/muggo.png"
+    },
+    {
+        "id": 47,
+        "name": "Pingky",
+        "shortDescription": "Cute bed set",
+        "description": "Create a versatile seating arrangement with this luxurious sectional sofa that embodies comfort and style. Upholstered in durable linen fabric, it features a reversible chaise for flexibility in room layout. The deep seats and plush cushions offer ample support and relaxation, making it perfect for lounging or entertaining guests. With its modern design and spacious configuration, this sofa effortlessly enhances any living room with its blend of functionality and sophistication.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 14000000,
+        "SKU": "SS007",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "home",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/pingky.png"
+    },
+    {
+        "id": 48,
+        "name": "Potty",
+        "shortDescription": "Minimalist flower pot",
+        "description": "Enhance your indoor plants with this elegant ceramic vase. Its minimalist design and matte finish blend seamlessly with any decor, from modern to Scandinavian styles. Crafted from durable ceramic, it offers a sleek backdrop for showcasing your favorite houseplants or floral arrangements, adding a touch of sophistication to your living space.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.0,
+        "price": 500000,
+        "SKU": "SS008",
+        "category": [
+            "decoration"
+        ],
+        "tags": [
+            "decoration",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/potty.png"
+    },
+    {
+        "id": 49,
+        "name": "Potty",
+        "shortDescription": "Minimalist flower pot",
+        "description": "Enhance your indoor plants with this elegant ceramic vase. Its minimalist design and matte finish blend seamlessly with any decor, from modern to Scandinavian styles. Crafted from durable ceramic, it offers a sleek backdrop for showcasing your favorite houseplants or floral arrangements, adding a touch of sophistication to your living space.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.0,
+        "price": 500000,
+        "SKU": "SS008",
+        "category": [
+            "decoration"
+        ],
+        "tags": [
+            "decoration",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/potty.png"
+    },
+    {
+        "id": 50,
+        "name": "Pingky",
+        "shortDescription": "Cute bed set",
+        "description": "Create a versatile seating arrangement with this luxurious sectional sofa that embodies comfort and style. Upholstered in durable linen fabric, it features a reversible chaise for flexibility in room layout. The deep seats and plush cushions offer ample support and relaxation, making it perfect for lounging or entertaining guests. With its modern design and spacious configuration, this sofa effortlessly enhances any living room with its blend of functionality and sophistication.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 14000000,
+        "SKU": "SS007",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "home",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/pingky.png"
+    },
+    {
+        "id": 51,
+        "name": "Muggo",
+        "shortDescription": "Small mug",
+        "description": "Enjoy your morning brew in style with this charming ceramic mug. Featuring a sleek, ergonomic design and a glossy finish, it offers a comfortable grip and keeps your favorite beverage warm. Whether you prefer coffee, tea, or hot chocolate, this versatile mug is the perfect companion for your daily routines, adding a touch of warmth and elegance to your kitchen or office.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.5,
+        "price": 150000,
+        "SKU": "SS006",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/muggo.png"
+    },
+    {
+        "id": 52,
+        "name": "Grifo",
+        "shortDescription": "Night lamp",
+        "description": "Add a touch of artisanal elegance to your space with this ceramic-based table lamp. Featuring a hand-glazed finish and a linen drum shade, this lamp exudes sophistication and charm. Its sculptural base adds visual interest, while the soft glow from the shade creates a warm ambiance. Perfect for bedside tables or cozy corners, this lamp combines form and function seamlessly.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 1500000,
+        "SKU": "SS005",
+        "category": [
+            "lamp"
+        ],
+        "tags": [
+            "lamp",
+            "decoration",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/grifo.png"
+    },
+    {
+        "id": 53,
+        "name": "Respira",
+        "shortDescription": "Outdoor bar table and stool",
+        "description": "Transform your living room with this minimalist coffee table that merges practicality with modern aesthetics. Crafted with a polished marble top and sleek metal legs, it brings a sense of refinement to any decor. The spacious surface is ideal for displaying books or decor items, while the clean lines and sturdy construction ensure durability and style. Elevate your home with this versatile piece that complements both classic and contemporary interiors.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 3.5,
+        "price": 500000,
+        "SKU": "SS004",
+        "category": [
+            "table"
+        ],
+        "tags": [
+            "table",
+            "outdoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/respira.png"
+    },
+    {
+        "id": 54,
+        "name": "Lolito",
+        "shortDescription": "Luxury big sofa",
+        "description": "Transform your living room into a sanctuary of comfort and style with our luxury big sofa. Crafted from the finest materials, this sofa exudes elegance with its plush upholstery and sophisticated design. Sink into its deep cushions and experience unparalleled relaxation while enjoying its generous seating space. Perfect for entertaining guests or lounging with your loved ones, this statement piece effortlessly combines opulence with functionality, elevating your home decor to new heights of luxury.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 4.5,
+        "price": 14000000,
+        "SKU": "SS003",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/lolito.png"
+    },
+    {
+        "id": 55,
+        "name": "Leviosa",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Crafted with a blend of modern aesthetics and ergonomic functionality, this armchair is designed to elevate any living space. Its sleek profile and sturdy frame are upholstered in premium fabric, offering both durability and style. The chair's gently sloped arms and plush cushioning provide exceptional comfort, making it an ideal choice for reading nooks or as a stylish accent piece in a contemporary home.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 2500000,
+        "SKU": "SS002",
+        "category": [
+            "chair"
+        ],
+        "tags": [
+            "chair",
+            "indoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/leviosa.png"
+    },
+    {
+        "id": 56,
+        "name": "Syltherine",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "discount": 30,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 3500000,
+        "SKU": "SS001",
+        "category": [
+            "table",
+            "chair"
+        ],
+        "tags": [
+            "table",
+            "chair",
+            "dinning",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/syltherine.png"
+    },
+    {
+        "id": 57,
+        "name": "Potty",
+        "shortDescription": "Minimalist flower pot",
+        "description": "Enhance your indoor plants with this elegant ceramic vase. Its minimalist design and matte finish blend seamlessly with any decor, from modern to Scandinavian styles. Crafted from durable ceramic, it offers a sleek backdrop for showcasing your favorite houseplants or floral arrangements, adding a touch of sophistication to your living space.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.0,
+        "price": 500000,
+        "SKU": "SS008",
+        "category": [
+            "decoration"
+        ],
+        "tags": [
+            "decoration",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/potty.png"
+    },
+    {
+        "id": 58,
+        "name": "Pingky",
+        "shortDescription": "Cute bed set",
+        "description": "Create a versatile seating arrangement with this luxurious sectional sofa that embodies comfort and style. Upholstered in durable linen fabric, it features a reversible chaise for flexibility in room layout. The deep seats and plush cushions offer ample support and relaxation, making it perfect for lounging or entertaining guests. With its modern design and spacious configuration, this sofa effortlessly enhances any living room with its blend of functionality and sophistication.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 14000000,
+        "SKU": "SS007",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "home",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/pingky.png"
+    },
+    {
+        "id": 59,
+        "name": "Muggo",
+        "shortDescription": "Small mug",
+        "description": "Enjoy your morning brew in style with this charming ceramic mug. Featuring a sleek, ergonomic design and a glossy finish, it offers a comfortable grip and keeps your favorite beverage warm. Whether you prefer coffee, tea, or hot chocolate, this versatile mug is the perfect companion for your daily routines, adding a touch of warmth and elegance to your kitchen or office.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.5,
+        "price": 150000,
+        "SKU": "SS006",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/muggo.png"
+    },
+    {
+        "id": 60,
+        "name": "Grifo",
+        "shortDescription": "Night lamp",
+        "description": "Add a touch of artisanal elegance to your space with this ceramic-based table lamp. Featuring a hand-glazed finish and a linen drum shade, this lamp exudes sophistication and charm. Its sculptural base adds visual interest, while the soft glow from the shade creates a warm ambiance. Perfect for bedside tables or cozy corners, this lamp combines form and function seamlessly.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 1500000,
+        "SKU": "SS005",
+        "category": [
+            "lamp"
+        ],
+        "tags": [
+            "lamp",
+            "decoration",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/grifo.png"
+    },
+    {
+        "id": 61,
+        "name": "Respira",
+        "shortDescription": "Outdoor bar table and stool",
+        "description": "Transform your living room with this minimalist coffee table that merges practicality with modern aesthetics. Crafted with a polished marble top and sleek metal legs, it brings a sense of refinement to any decor. The spacious surface is ideal for displaying books or decor items, while the clean lines and sturdy construction ensure durability and style. Elevate your home with this versatile piece that complements both classic and contemporary interiors.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 3.5,
+        "price": 500000,
+        "SKU": "SS004",
+        "category": [
+            "table"
+        ],
+        "tags": [
+            "table",
+            "outdoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/respira.png"
+    },
+    {
+        "id": 62,
+        "name": "Lolito",
+        "shortDescription": "Luxury big sofa",
+        "description": "Transform your living room into a sanctuary of comfort and style with our luxury big sofa. Crafted from the finest materials, this sofa exudes elegance with its plush upholstery and sophisticated design. Sink into its deep cushions and experience unparalleled relaxation while enjoying its generous seating space. Perfect for entertaining guests or lounging with your loved ones, this statement piece effortlessly combines opulence with functionality, elevating your home decor to new heights of luxury.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 4.5,
+        "price": 14000000,
+        "SKU": "SS003",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/lolito.png"
+    },
+    {
+        "id": 63,
+        "name": "Leviosa",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Crafted with a blend of modern aesthetics and ergonomic functionality, this armchair is designed to elevate any living space. Its sleek profile and sturdy frame are upholstered in premium fabric, offering both durability and style. The chair's gently sloped arms and plush cushioning provide exceptional comfort, making it an ideal choice for reading nooks or as a stylish accent piece in a contemporary home.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 2500000,
+        "SKU": "SS002",
+        "category": [
+            "chair"
+        ],
+        "tags": [
+            "chair",
+            "indoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/leviosa.png"
+    },
+    {
+        "id": 64,
+        "name": "Syltherine",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "discount": 30,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 3500000,
+        "SKU": "SS001",
+        "category": [
+            "table",
+            "chair"
+        ],
+        "tags": [
+            "table",
+            "chair",
+            "dinning",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/syltherine.png"
+    },
+    {
+        "id": 65,
+        "name": "Syltherine",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "discount": 30,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 3500000,
+        "SKU": "SS001",
+        "category": [
+            "table",
+            "chair"
+        ],
+        "tags": [
+            "table",
+            "chair",
+            "dinning",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/syltherine.png"
+    },
+    {
+        "id": 66,
+        "name": "Leviosa",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Crafted with a blend of modern aesthetics and ergonomic functionality, this armchair is designed to elevate any living space. Its sleek profile and sturdy frame are upholstered in premium fabric, offering both durability and style. The chair's gently sloped arms and plush cushioning provide exceptional comfort, making it an ideal choice for reading nooks or as a stylish accent piece in a contemporary home.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 2500000,
+        "SKU": "SS002",
+        "category": [
+            "chair"
+        ],
+        "tags": [
+            "chair",
+            "indoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/leviosa.png"
+    },
+    {
+        "id": 67,
+        "name": "Lolito",
+        "shortDescription": "Luxury big sofa",
+        "description": "Transform your living room into a sanctuary of comfort and style with our luxury big sofa. Crafted from the finest materials, this sofa exudes elegance with its plush upholstery and sophisticated design. Sink into its deep cushions and experience unparalleled relaxation while enjoying its generous seating space. Perfect for entertaining guests or lounging with your loved ones, this statement piece effortlessly combines opulence with functionality, elevating your home decor to new heights of luxury.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 4.5,
+        "price": 14000000,
+        "SKU": "SS003",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/lolito.png"
+    },
+    {
+        "id": 68,
+        "name": "Respira",
+        "shortDescription": "Outdoor bar table and stool",
+        "description": "Transform your living room with this minimalist coffee table that merges practicality with modern aesthetics. Crafted with a polished marble top and sleek metal legs, it brings a sense of refinement to any decor. The spacious surface is ideal for displaying books or decor items, while the clean lines and sturdy construction ensure durability and style. Elevate your home with this versatile piece that complements both classic and contemporary interiors.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 3.5,
+        "price": 500000,
+        "SKU": "SS004",
+        "category": [
+            "table"
+        ],
+        "tags": [
+            "table",
+            "outdoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/respira.png"
+    },
+    {
+        "id": 69,
+        "name": "Grifo",
+        "shortDescription": "Night lamp",
+        "description": "Add a touch of artisanal elegance to your space with this ceramic-based table lamp. Featuring a hand-glazed finish and a linen drum shade, this lamp exudes sophistication and charm. Its sculptural base adds visual interest, while the soft glow from the shade creates a warm ambiance. Perfect for bedside tables or cozy corners, this lamp combines form and function seamlessly.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 1500000,
+        "SKU": "SS005",
+        "category": [
+            "lamp"
+        ],
+        "tags": [
+            "lamp",
+            "decoration",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/grifo.png"
+    },
+    {
+        "id": 70,
+        "name": "Muggo",
+        "shortDescription": "Small mug",
+        "description": "Enjoy your morning brew in style with this charming ceramic mug. Featuring a sleek, ergonomic design and a glossy finish, it offers a comfortable grip and keeps your favorite beverage warm. Whether you prefer coffee, tea, or hot chocolate, this versatile mug is the perfect companion for your daily routines, adding a touch of warmth and elegance to your kitchen or office.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.5,
+        "price": 150000,
+        "SKU": "SS006",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/muggo.png"
+    },
+    {
+        "id": 71,
+        "name": "Pingky",
+        "shortDescription": "Cute bed set",
+        "description": "Create a versatile seating arrangement with this luxurious sectional sofa that embodies comfort and style. Upholstered in durable linen fabric, it features a reversible chaise for flexibility in room layout. The deep seats and plush cushions offer ample support and relaxation, making it perfect for lounging or entertaining guests. With its modern design and spacious configuration, this sofa effortlessly enhances any living room with its blend of functionality and sophistication.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 14000000,
+        "SKU": "SS007",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "home",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/pingky.png"
+    },
+    {
+        "id": 72,
+        "name": "Potty",
+        "shortDescription": "Minimalist flower pot",
+        "description": "Enhance your indoor plants with this elegant ceramic vase. Its minimalist design and matte finish blend seamlessly with any decor, from modern to Scandinavian styles. Crafted from durable ceramic, it offers a sleek backdrop for showcasing your favorite houseplants or floral arrangements, adding a touch of sophistication to your living space.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.0,
+        "price": 500000,
+        "SKU": "SS008",
+        "category": [
+            "decoration"
+        ],
+        "tags": [
+            "decoration",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/potty.png"
+    },
+    {
+        "id": 73,
+        "name": "Syltherine",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "discount": 30,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 3500000,
+        "SKU": "SS001",
+        "category": [
+            "table",
+            "chair"
+        ],
+        "tags": [
+            "table",
+            "chair",
+            "dinning",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/syltherine.png"
+    },
+    {
+        "id": 74,
+        "name": "Leviosa",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Crafted with a blend of modern aesthetics and ergonomic functionality, this armchair is designed to elevate any living space. Its sleek profile and sturdy frame are upholstered in premium fabric, offering both durability and style. The chair's gently sloped arms and plush cushioning provide exceptional comfort, making it an ideal choice for reading nooks or as a stylish accent piece in a contemporary home.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 2500000,
+        "SKU": "SS002",
+        "category": [
+            "chair"
+        ],
+        "tags": [
+            "chair",
+            "indoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/leviosa.png"
+    },
+    {
+        "id": 75,
+        "name": "Lolito",
+        "shortDescription": "Luxury big sofa",
+        "description": "Transform your living room into a sanctuary of comfort and style with our luxury big sofa. Crafted from the finest materials, this sofa exudes elegance with its plush upholstery and sophisticated design. Sink into its deep cushions and experience unparalleled relaxation while enjoying its generous seating space. Perfect for entertaining guests or lounging with your loved ones, this statement piece effortlessly combines opulence with functionality, elevating your home decor to new heights of luxury.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 4.5,
+        "price": 14000000,
+        "SKU": "SS003",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/lolito.png"
+    },
+    {
+        "id": 76,
+        "name": "Respira",
+        "shortDescription": "Outdoor bar table and stool",
+        "description": "Transform your living room with this minimalist coffee table that merges practicality with modern aesthetics. Crafted with a polished marble top and sleek metal legs, it brings a sense of refinement to any decor. The spacious surface is ideal for displaying books or decor items, while the clean lines and sturdy construction ensure durability and style. Elevate your home with this versatile piece that complements both classic and contemporary interiors.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 3.5,
+        "price": 500000,
+        "SKU": "SS004",
+        "category": [
+            "table"
+        ],
+        "tags": [
+            "table",
+            "outdoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/respira.png"
+    },
+    {
+        "id": 77,
+        "name": "Grifo",
+        "shortDescription": "Night lamp",
+        "description": "Add a touch of artisanal elegance to your space with this ceramic-based table lamp. Featuring a hand-glazed finish and a linen drum shade, this lamp exudes sophistication and charm. Its sculptural base adds visual interest, while the soft glow from the shade creates a warm ambiance. Perfect for bedside tables or cozy corners, this lamp combines form and function seamlessly.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 1500000,
+        "SKU": "SS005",
+        "category": [
+            "lamp"
+        ],
+        "tags": [
+            "lamp",
+            "decoration",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/grifo.png"
+    },
+    {
+        "id": 78,
+        "name": "Muggo",
+        "shortDescription": "Small mug",
+        "description": "Enjoy your morning brew in style with this charming ceramic mug. Featuring a sleek, ergonomic design and a glossy finish, it offers a comfortable grip and keeps your favorite beverage warm. Whether you prefer coffee, tea, or hot chocolate, this versatile mug is the perfect companion for your daily routines, adding a touch of warmth and elegance to your kitchen or office.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.5,
+        "price": 150000,
+        "SKU": "SS006",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/muggo.png"
+    },
+    {
+        "id": 79,
+        "name": "Pingky",
+        "shortDescription": "Cute bed set",
+        "description": "Create a versatile seating arrangement with this luxurious sectional sofa that embodies comfort and style. Upholstered in durable linen fabric, it features a reversible chaise for flexibility in room layout. The deep seats and plush cushions offer ample support and relaxation, making it perfect for lounging or entertaining guests. With its modern design and spacious configuration, this sofa effortlessly enhances any living room with its blend of functionality and sophistication.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 14000000,
+        "SKU": "SS007",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "home",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/pingky.png"
+    },
+    {
+        "id": 80,
+        "name": "Potty",
+        "shortDescription": "Minimalist flower pot",
+        "description": "Enhance your indoor plants with this elegant ceramic vase. Its minimalist design and matte finish blend seamlessly with any decor, from modern to Scandinavian styles. Crafted from durable ceramic, it offers a sleek backdrop for showcasing your favorite houseplants or floral arrangements, adding a touch of sophistication to your living space.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.0,
+        "price": 500000,
+        "SKU": "SS008",
+        "category": [
+            "decoration"
+        ],
+        "tags": [
+            "decoration",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/potty.png"
+    },
+    {
+        "id": 81,
+        "name": "Potty",
+        "shortDescription": "Minimalist flower pot",
+        "description": "Enhance your indoor plants with this elegant ceramic vase. Its minimalist design and matte finish blend seamlessly with any decor, from modern to Scandinavian styles. Crafted from durable ceramic, it offers a sleek backdrop for showcasing your favorite houseplants or floral arrangements, adding a touch of sophistication to your living space.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.0,
+        "price": 500000,
+        "SKU": "SS008",
+        "category": [
+            "decoration"
+        ],
+        "tags": [
+            "decoration",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/potty.png"
+    },
+    {
+        "id": 82,
+        "name": "Pingky",
+        "shortDescription": "Cute bed set",
+        "description": "Create a versatile seating arrangement with this luxurious sectional sofa that embodies comfort and style. Upholstered in durable linen fabric, it features a reversible chaise for flexibility in room layout. The deep seats and plush cushions offer ample support and relaxation, making it perfect for lounging or entertaining guests. With its modern design and spacious configuration, this sofa effortlessly enhances any living room with its blend of functionality and sophistication.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 14000000,
+        "SKU": "SS007",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "home",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/pingky.png"
+    },
+    {
+        "id": 83,
+        "name": "Muggo",
+        "shortDescription": "Small mug",
+        "description": "Enjoy your morning brew in style with this charming ceramic mug. Featuring a sleek, ergonomic design and a glossy finish, it offers a comfortable grip and keeps your favorite beverage warm. Whether you prefer coffee, tea, or hot chocolate, this versatile mug is the perfect companion for your daily routines, adding a touch of warmth and elegance to your kitchen or office.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.5,
+        "price": 150000,
+        "SKU": "SS006",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/muggo.png"
+    },
+    {
+        "id": 84,
+        "name": "Grifo",
+        "shortDescription": "Night lamp",
+        "description": "Add a touch of artisanal elegance to your space with this ceramic-based table lamp. Featuring a hand-glazed finish and a linen drum shade, this lamp exudes sophistication and charm. Its sculptural base adds visual interest, while the soft glow from the shade creates a warm ambiance. Perfect for bedside tables or cozy corners, this lamp combines form and function seamlessly.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 1500000,
+        "SKU": "SS005",
+        "category": [
+            "lamp"
+        ],
+        "tags": [
+            "lamp",
+            "decoration",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/grifo.png"
+    },
+    {
+        "id": 85,
+        "name": "Respira",
+        "shortDescription": "Outdoor bar table and stool",
+        "description": "Transform your living room with this minimalist coffee table that merges practicality with modern aesthetics. Crafted with a polished marble top and sleek metal legs, it brings a sense of refinement to any decor. The spacious surface is ideal for displaying books or decor items, while the clean lines and sturdy construction ensure durability and style. Elevate your home with this versatile piece that complements both classic and contemporary interiors.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 3.5,
+        "price": 500000,
+        "SKU": "SS004",
+        "category": [
+            "table"
+        ],
+        "tags": [
+            "table",
+            "outdoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/respira.png"
+    },
+    {
+        "id": 86,
+        "name": "Lolito",
+        "shortDescription": "Luxury big sofa",
+        "description": "Transform your living room into a sanctuary of comfort and style with our luxury big sofa. Crafted from the finest materials, this sofa exudes elegance with its plush upholstery and sophisticated design. Sink into its deep cushions and experience unparalleled relaxation while enjoying its generous seating space. Perfect for entertaining guests or lounging with your loved ones, this statement piece effortlessly combines opulence with functionality, elevating your home decor to new heights of luxury.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 4.5,
+        "price": 14000000,
+        "SKU": "SS003",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/lolito.png"
+    },
+    {
+        "id": 87,
+        "name": "Leviosa",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Crafted with a blend of modern aesthetics and ergonomic functionality, this armchair is designed to elevate any living space. Its sleek profile and sturdy frame are upholstered in premium fabric, offering both durability and style. The chair's gently sloped arms and plush cushioning provide exceptional comfort, making it an ideal choice for reading nooks or as a stylish accent piece in a contemporary home.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 2500000,
+        "SKU": "SS002",
+        "category": [
+            "chair"
+        ],
+        "tags": [
+            "chair",
+            "indoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/leviosa.png"
+    },
+    {
+        "id": 88,
+        "name": "Syltherine",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "discount": 30,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 3500000,
+        "SKU": "SS001",
+        "category": [
+            "table",
+            "chair"
+        ],
+        "tags": [
+            "table",
+            "chair",
+            "dinning",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/syltherine.png"
+    },
+    {
+        "id": 89,
+        "name": "Potty",
+        "shortDescription": "Minimalist flower pot",
+        "description": "Enhance your indoor plants with this elegant ceramic vase. Its minimalist design and matte finish blend seamlessly with any decor, from modern to Scandinavian styles. Crafted from durable ceramic, it offers a sleek backdrop for showcasing your favorite houseplants or floral arrangements, adding a touch of sophistication to your living space.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.0,
+        "price": 500000,
+        "SKU": "SS008",
+        "category": [
+            "decoration"
+        ],
+        "tags": [
+            "decoration",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/potty.png"
+    },
+    {
+        "id": 90,
+        "name": "Pingky",
+        "shortDescription": "Cute bed set",
+        "description": "Create a versatile seating arrangement with this luxurious sectional sofa that embodies comfort and style. Upholstered in durable linen fabric, it features a reversible chaise for flexibility in room layout. The deep seats and plush cushions offer ample support and relaxation, making it perfect for lounging or entertaining guests. With its modern design and spacious configuration, this sofa effortlessly enhances any living room with its blend of functionality and sophistication.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 14000000,
+        "SKU": "SS007",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "home",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/pingky.png"
+    },
+    {
+        "id": 91,
+        "name": "Muggo",
+        "shortDescription": "Small mug",
+        "description": "Enjoy your morning brew in style with this charming ceramic mug. Featuring a sleek, ergonomic design and a glossy finish, it offers a comfortable grip and keeps your favorite beverage warm. Whether you prefer coffee, tea, or hot chocolate, this versatile mug is the perfect companion for your daily routines, adding a touch of warmth and elegance to your kitchen or office.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.5,
+        "price": 150000,
+        "SKU": "SS006",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/muggo.png"
+    },
+    {
+        "id": 92,
+        "name": "Grifo",
+        "shortDescription": "Night lamp",
+        "description": "Add a touch of artisanal elegance to your space with this ceramic-based table lamp. Featuring a hand-glazed finish and a linen drum shade, this lamp exudes sophistication and charm. Its sculptural base adds visual interest, while the soft glow from the shade creates a warm ambiance. Perfect for bedside tables or cozy corners, this lamp combines form and function seamlessly.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 1500000,
+        "SKU": "SS005",
+        "category": [
+            "lamp"
+        ],
+        "tags": [
+            "lamp",
+            "decoration",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/grifo.png"
+    },
+    {
+        "id": 93,
+        "name": "Respira",
+        "shortDescription": "Outdoor bar table and stool",
+        "description": "Transform your living room with this minimalist coffee table that merges practicality with modern aesthetics. Crafted with a polished marble top and sleek metal legs, it brings a sense of refinement to any decor. The spacious surface is ideal for displaying books or decor items, while the clean lines and sturdy construction ensure durability and style. Elevate your home with this versatile piece that complements both classic and contemporary interiors.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 3.5,
+        "price": 500000,
+        "SKU": "SS004",
+        "category": [
+            "table"
+        ],
+        "tags": [
+            "table",
+            "outdoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/respira.png"
+    },
+    {
+        "id": 94,
+        "name": "Lolito",
+        "shortDescription": "Luxury big sofa",
+        "description": "Transform your living room into a sanctuary of comfort and style with our luxury big sofa. Crafted from the finest materials, this sofa exudes elegance with its plush upholstery and sophisticated design. Sink into its deep cushions and experience unparalleled relaxation while enjoying its generous seating space. Perfect for entertaining guests or lounging with your loved ones, this statement piece effortlessly combines opulence with functionality, elevating your home decor to new heights of luxury.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 4.5,
+        "price": 14000000,
+        "SKU": "SS003",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/lolito.png"
+    },
+    {
+        "id": 95,
+        "name": "Leviosa",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Crafted with a blend of modern aesthetics and ergonomic functionality, this armchair is designed to elevate any living space. Its sleek profile and sturdy frame are upholstered in premium fabric, offering both durability and style. The chair's gently sloped arms and plush cushioning provide exceptional comfort, making it an ideal choice for reading nooks or as a stylish accent piece in a contemporary home.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 2500000,
+        "SKU": "SS002",
+        "category": [
+            "chair"
+        ],
+        "tags": [
+            "chair",
+            "indoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/leviosa.png"
+    },
+    {
+        "id": 96,
+        "name": "Syltherine",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "discount": 30,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 3500000,
+        "SKU": "SS001",
+        "category": [
+            "table",
+            "chair"
+        ],
+        "tags": [
+            "table",
+            "chair",
+            "dinning",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/syltherine.png"
+    },
+    {
+        "id": 97,
+        "name": "Syltherine",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "discount": 30,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 3500000,
+        "SKU": "SS001",
+        "category": [
+            "table",
+            "chair"
+        ],
+        "tags": [
+            "table",
+            "chair",
+            "dinning",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/syltherine.png"
+    },
+    {
+        "id": 98,
+        "name": "Leviosa",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Crafted with a blend of modern aesthetics and ergonomic functionality, this armchair is designed to elevate any living space. Its sleek profile and sturdy frame are upholstered in premium fabric, offering both durability and style. The chair's gently sloped arms and plush cushioning provide exceptional comfort, making it an ideal choice for reading nooks or as a stylish accent piece in a contemporary home.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 2500000,
+        "SKU": "SS002",
+        "category": [
+            "chair"
+        ],
+        "tags": [
+            "chair",
+            "indoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/leviosa.png"
+    },
+    {
+        "id": 99,
+        "name": "Lolito",
+        "shortDescription": "Luxury big sofa",
+        "description": "Transform your living room into a sanctuary of comfort and style with our luxury big sofa. Crafted from the finest materials, this sofa exudes elegance with its plush upholstery and sophisticated design. Sink into its deep cushions and experience unparalleled relaxation while enjoying its generous seating space. Perfect for entertaining guests or lounging with your loved ones, this statement piece effortlessly combines opulence with functionality, elevating your home decor to new heights of luxury.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 4.5,
+        "price": 14000000,
+        "SKU": "SS003",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/lolito.png"
+    },
+    {
+        "id": 100,
+        "name": "Respira",
+        "shortDescription": "Outdoor bar table and stool",
+        "description": "Transform your living room with this minimalist coffee table that merges practicality with modern aesthetics. Crafted with a polished marble top and sleek metal legs, it brings a sense of refinement to any decor. The spacious surface is ideal for displaying books or decor items, while the clean lines and sturdy construction ensure durability and style. Elevate your home with this versatile piece that complements both classic and contemporary interiors.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 3.5,
+        "price": 500000,
+        "SKU": "SS004",
+        "category": [
+            "table"
+        ],
+        "tags": [
+            "table",
+            "outdoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/respira.png"
+    },
+    {
+        "id": 101,
+        "name": "Grifo",
+        "shortDescription": "Night lamp",
+        "description": "Add a touch of artisanal elegance to your space with this ceramic-based table lamp. Featuring a hand-glazed finish and a linen drum shade, this lamp exudes sophistication and charm. Its sculptural base adds visual interest, while the soft glow from the shade creates a warm ambiance. Perfect for bedside tables or cozy corners, this lamp combines form and function seamlessly.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 1500000,
+        "SKU": "SS005",
+        "category": [
+            "lamp"
+        ],
+        "tags": [
+            "lamp",
+            "decoration",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/grifo.png"
+    },
+    {
+        "id": 102,
+        "name": "Muggo",
+        "shortDescription": "Small mug",
+        "description": "Enjoy your morning brew in style with this charming ceramic mug. Featuring a sleek, ergonomic design and a glossy finish, it offers a comfortable grip and keeps your favorite beverage warm. Whether you prefer coffee, tea, or hot chocolate, this versatile mug is the perfect companion for your daily routines, adding a touch of warmth and elegance to your kitchen or office.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.5,
+        "price": 150000,
+        "SKU": "SS006",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/muggo.png"
+    },
+    {
+        "id": 103,
+        "name": "Pingky",
+        "shortDescription": "Cute bed set",
+        "description": "Create a versatile seating arrangement with this luxurious sectional sofa that embodies comfort and style. Upholstered in durable linen fabric, it features a reversible chaise for flexibility in room layout. The deep seats and plush cushions offer ample support and relaxation, making it perfect for lounging or entertaining guests. With its modern design and spacious configuration, this sofa effortlessly enhances any living room with its blend of functionality and sophistication.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 14000000,
+        "SKU": "SS007",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "home",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/pingky.png"
+    },
+    {
+        "id": 104,
+        "name": "Potty",
+        "shortDescription": "Minimalist flower pot",
+        "description": "Enhance your indoor plants with this elegant ceramic vase. Its minimalist design and matte finish blend seamlessly with any decor, from modern to Scandinavian styles. Crafted from durable ceramic, it offers a sleek backdrop for showcasing your favorite houseplants or floral arrangements, adding a touch of sophistication to your living space.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.0,
+        "price": 500000,
+        "SKU": "SS008",
+        "category": [
+            "decoration"
+        ],
+        "tags": [
+            "decoration",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/potty.png"
+    },
+    {
+        "id": 105,
+        "name": "Syltherine",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "discount": 30,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 3500000,
+        "SKU": "SS001",
+        "category": [
+            "table",
+            "chair"
+        ],
+        "tags": [
+            "table",
+            "chair",
+            "dinning",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/syltherine.png"
+    },
+    {
+        "id": 106,
+        "name": "Leviosa",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Crafted with a blend of modern aesthetics and ergonomic functionality, this armchair is designed to elevate any living space. Its sleek profile and sturdy frame are upholstered in premium fabric, offering both durability and style. The chair's gently sloped arms and plush cushioning provide exceptional comfort, making it an ideal choice for reading nooks or as a stylish accent piece in a contemporary home.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 2500000,
+        "SKU": "SS002",
+        "category": [
+            "chair"
+        ],
+        "tags": [
+            "chair",
+            "indoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/leviosa.png"
+    },
+    {
+        "id": 107,
+        "name": "Lolito",
+        "shortDescription": "Luxury big sofa",
+        "description": "Transform your living room into a sanctuary of comfort and style with our luxury big sofa. Crafted from the finest materials, this sofa exudes elegance with its plush upholstery and sophisticated design. Sink into its deep cushions and experience unparalleled relaxation while enjoying its generous seating space. Perfect for entertaining guests or lounging with your loved ones, this statement piece effortlessly combines opulence with functionality, elevating your home decor to new heights of luxury.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 4.5,
+        "price": 14000000,
+        "SKU": "SS003",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/lolito.png"
+    },
+    {
+        "id": 108,
+        "name": "Respira",
+        "shortDescription": "Outdoor bar table and stool",
+        "description": "Transform your living room with this minimalist coffee table that merges practicality with modern aesthetics. Crafted with a polished marble top and sleek metal legs, it brings a sense of refinement to any decor. The spacious surface is ideal for displaying books or decor items, while the clean lines and sturdy construction ensure durability and style. Elevate your home with this versatile piece that complements both classic and contemporary interiors.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 3.5,
+        "price": 500000,
+        "SKU": "SS004",
+        "category": [
+            "table"
+        ],
+        "tags": [
+            "table",
+            "outdoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/respira.png"
+    },
+    {
+        "id": 109,
+        "name": "Grifo",
+        "shortDescription": "Night lamp",
+        "description": "Add a touch of artisanal elegance to your space with this ceramic-based table lamp. Featuring a hand-glazed finish and a linen drum shade, this lamp exudes sophistication and charm. Its sculptural base adds visual interest, while the soft glow from the shade creates a warm ambiance. Perfect for bedside tables or cozy corners, this lamp combines form and function seamlessly.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 1500000,
+        "SKU": "SS005",
+        "category": [
+            "lamp"
+        ],
+        "tags": [
+            "lamp",
+            "decoration",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/grifo.png"
+    },
+    {
+        "id": 110,
+        "name": "Muggo",
+        "shortDescription": "Small mug",
+        "description": "Enjoy your morning brew in style with this charming ceramic mug. Featuring a sleek, ergonomic design and a glossy finish, it offers a comfortable grip and keeps your favorite beverage warm. Whether you prefer coffee, tea, or hot chocolate, this versatile mug is the perfect companion for your daily routines, adding a touch of warmth and elegance to your kitchen or office.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.5,
+        "price": 150000,
+        "SKU": "SS006",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/muggo.png"
+    },
+    {
+        "id": 111,
+        "name": "Pingky",
+        "shortDescription": "Cute bed set",
+        "description": "Create a versatile seating arrangement with this luxurious sectional sofa that embodies comfort and style. Upholstered in durable linen fabric, it features a reversible chaise for flexibility in room layout. The deep seats and plush cushions offer ample support and relaxation, making it perfect for lounging or entertaining guests. With its modern design and spacious configuration, this sofa effortlessly enhances any living room with its blend of functionality and sophistication.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 14000000,
+        "SKU": "SS007",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "home",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/pingky.png"
+    },
+    {
+        "id": 112,
+        "name": "Potty",
+        "shortDescription": "Minimalist flower pot",
+        "description": "Enhance your indoor plants with this elegant ceramic vase. Its minimalist design and matte finish blend seamlessly with any decor, from modern to Scandinavian styles. Crafted from durable ceramic, it offers a sleek backdrop for showcasing your favorite houseplants or floral arrangements, adding a touch of sophistication to your living space.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.0,
+        "price": 500000,
+        "SKU": "SS008",
+        "category": [
+            "decoration"
+        ],
+        "tags": [
+            "decoration",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/potty.png"
+    },
+    {
+        "id": 113,
+        "name": "Potty",
+        "shortDescription": "Minimalist flower pot",
+        "description": "Enhance your indoor plants with this elegant ceramic vase. Its minimalist design and matte finish blend seamlessly with any decor, from modern to Scandinavian styles. Crafted from durable ceramic, it offers a sleek backdrop for showcasing your favorite houseplants or floral arrangements, adding a touch of sophistication to your living space.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.0,
+        "price": 500000,
+        "SKU": "SS008",
+        "category": [
+            "decoration"
+        ],
+        "tags": [
+            "decoration",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/potty.png"
+    },
+    {
+        "id": 114,
+        "name": "Pingky",
+        "shortDescription": "Cute bed set",
+        "description": "Create a versatile seating arrangement with this luxurious sectional sofa that embodies comfort and style. Upholstered in durable linen fabric, it features a reversible chaise for flexibility in room layout. The deep seats and plush cushions offer ample support and relaxation, making it perfect for lounging or entertaining guests. With its modern design and spacious configuration, this sofa effortlessly enhances any living room with its blend of functionality and sophistication.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 14000000,
+        "SKU": "SS007",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "home",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/pingky.png"
+    },
+    {
+        "id": 115,
+        "name": "Muggo",
+        "shortDescription": "Small mug",
+        "description": "Enjoy your morning brew in style with this charming ceramic mug. Featuring a sleek, ergonomic design and a glossy finish, it offers a comfortable grip and keeps your favorite beverage warm. Whether you prefer coffee, tea, or hot chocolate, this versatile mug is the perfect companion for your daily routines, adding a touch of warmth and elegance to your kitchen or office.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.5,
+        "price": 150000,
+        "SKU": "SS006",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/muggo.png"
+    },
+    {
+        "id": 116,
+        "name": "Grifo",
+        "shortDescription": "Night lamp",
+        "description": "Add a touch of artisanal elegance to your space with this ceramic-based table lamp. Featuring a hand-glazed finish and a linen drum shade, this lamp exudes sophistication and charm. Its sculptural base adds visual interest, while the soft glow from the shade creates a warm ambiance. Perfect for bedside tables or cozy corners, this lamp combines form and function seamlessly.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 1500000,
+        "SKU": "SS005",
+        "category": [
+            "lamp"
+        ],
+        "tags": [
+            "lamp",
+            "decoration",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/grifo.png"
+    },
+    {
+        "id": 117,
+        "name": "Respira",
+        "shortDescription": "Outdoor bar table and stool",
+        "description": "Transform your living room with this minimalist coffee table that merges practicality with modern aesthetics. Crafted with a polished marble top and sleek metal legs, it brings a sense of refinement to any decor. The spacious surface is ideal for displaying books or decor items, while the clean lines and sturdy construction ensure durability and style. Elevate your home with this versatile piece that complements both classic and contemporary interiors.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 3.5,
+        "price": 500000,
+        "SKU": "SS004",
+        "category": [
+            "table"
+        ],
+        "tags": [
+            "table",
+            "outdoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/respira.png"
+    },
+    {
+        "id": 118,
+        "name": "Lolito",
+        "shortDescription": "Luxury big sofa",
+        "description": "Transform your living room into a sanctuary of comfort and style with our luxury big sofa. Crafted from the finest materials, this sofa exudes elegance with its plush upholstery and sophisticated design. Sink into its deep cushions and experience unparalleled relaxation while enjoying its generous seating space. Perfect for entertaining guests or lounging with your loved ones, this statement piece effortlessly combines opulence with functionality, elevating your home decor to new heights of luxury.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 4.5,
+        "price": 14000000,
+        "SKU": "SS003",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/lolito.png"
+    },
+    {
+        "id": 119,
+        "name": "Leviosa",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Crafted with a blend of modern aesthetics and ergonomic functionality, this armchair is designed to elevate any living space. Its sleek profile and sturdy frame are upholstered in premium fabric, offering both durability and style. The chair's gently sloped arms and plush cushioning provide exceptional comfort, making it an ideal choice for reading nooks or as a stylish accent piece in a contemporary home.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 2500000,
+        "SKU": "SS002",
+        "category": [
+            "chair"
+        ],
+        "tags": [
+            "chair",
+            "indoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/leviosa.png"
+    },
+    {
+        "id": 120,
+        "name": "Syltherine",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "discount": 30,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 3500000,
+        "SKU": "SS001",
+        "category": [
+            "table",
+            "chair"
+        ],
+        "tags": [
+            "table",
+            "chair",
+            "dinning",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/syltherine.png"
+    },
+    {
+        "id": 121,
+        "name": "Potty",
+        "shortDescription": "Minimalist flower pot",
+        "description": "Enhance your indoor plants with this elegant ceramic vase. Its minimalist design and matte finish blend seamlessly with any decor, from modern to Scandinavian styles. Crafted from durable ceramic, it offers a sleek backdrop for showcasing your favorite houseplants or floral arrangements, adding a touch of sophistication to your living space.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.0,
+        "price": 500000,
+        "SKU": "SS008",
+        "category": [
+            "decoration"
+        ],
+        "tags": [
+            "decoration",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/potty.png"
+    },
+    {
+        "id": 122,
+        "name": "Pingky",
+        "shortDescription": "Cute bed set",
+        "description": "Create a versatile seating arrangement with this luxurious sectional sofa that embodies comfort and style. Upholstered in durable linen fabric, it features a reversible chaise for flexibility in room layout. The deep seats and plush cushions offer ample support and relaxation, making it perfect for lounging or entertaining guests. With its modern design and spacious configuration, this sofa effortlessly enhances any living room with its blend of functionality and sophistication.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 14000000,
+        "SKU": "SS007",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "home",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/pingky.png"
+    },
+    {
+        "id": 123,
+        "name": "Muggo",
+        "shortDescription": "Small mug",
+        "description": "Enjoy your morning brew in style with this charming ceramic mug. Featuring a sleek, ergonomic design and a glossy finish, it offers a comfortable grip and keeps your favorite beverage warm. Whether you prefer coffee, tea, or hot chocolate, this versatile mug is the perfect companion for your daily routines, adding a touch of warmth and elegance to your kitchen or office.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.5,
+        "price": 150000,
+        "SKU": "SS006",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/muggo.png"
+    },
+    {
+        "id": 124,
+        "name": "Grifo",
+        "shortDescription": "Night lamp",
+        "description": "Add a touch of artisanal elegance to your space with this ceramic-based table lamp. Featuring a hand-glazed finish and a linen drum shade, this lamp exudes sophistication and charm. Its sculptural base adds visual interest, while the soft glow from the shade creates a warm ambiance. Perfect for bedside tables or cozy corners, this lamp combines form and function seamlessly.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 1500000,
+        "SKU": "SS005",
+        "category": [
+            "lamp"
+        ],
+        "tags": [
+            "lamp",
+            "decoration",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/grifo.png"
+    },
+    {
+        "id": 125,
+        "name": "Respira",
+        "shortDescription": "Outdoor bar table and stool",
+        "description": "Transform your living room with this minimalist coffee table that merges practicality with modern aesthetics. Crafted with a polished marble top and sleek metal legs, it brings a sense of refinement to any decor. The spacious surface is ideal for displaying books or decor items, while the clean lines and sturdy construction ensure durability and style. Elevate your home with this versatile piece that complements both classic and contemporary interiors.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 3.5,
+        "price": 500000,
+        "SKU": "SS004",
+        "category": [
+            "table"
+        ],
+        "tags": [
+            "table",
+            "outdoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/respira.png"
+    },
+    {
+        "id": 126,
+        "name": "Lolito",
+        "shortDescription": "Luxury big sofa",
+        "description": "Transform your living room into a sanctuary of comfort and style with our luxury big sofa. Crafted from the finest materials, this sofa exudes elegance with its plush upholstery and sophisticated design. Sink into its deep cushions and experience unparalleled relaxation while enjoying its generous seating space. Perfect for entertaining guests or lounging with your loved ones, this statement piece effortlessly combines opulence with functionality, elevating your home decor to new heights of luxury.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 4.5,
+        "price": 14000000,
+        "SKU": "SS003",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/lolito.png"
+    },
+    {
+        "id": 127,
+        "name": "Leviosa",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Crafted with a blend of modern aesthetics and ergonomic functionality, this armchair is designed to elevate any living space. Its sleek profile and sturdy frame are upholstered in premium fabric, offering both durability and style. The chair's gently sloped arms and plush cushioning provide exceptional comfort, making it an ideal choice for reading nooks or as a stylish accent piece in a contemporary home.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 2500000,
+        "SKU": "SS002",
+        "category": [
+            "chair"
+        ],
+        "tags": [
+            "chair",
+            "indoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/leviosa.png"
+    },
+    {
+        "id": 128,
+        "name": "Syltherine",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "discount": 30,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 3500000,
+        "SKU": "SS001",
+        "category": [
+            "table",
+            "chair"
+        ],
+        "tags": [
+            "table",
+            "chair",
+            "dinning",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/syltherine.png"
+    },
+    {
+        "id": 129,
+        "name": "Syltherine",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "discount": 30,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 3500000,
+        "SKU": "SS001",
+        "category": [
+            "table",
+            "chair"
+        ],
+        "tags": [
+            "table",
+            "chair",
+            "dinning",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/syltherine.png"
+    },
+    {
+        "id": 130,
+        "name": "Leviosa",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Crafted with a blend of modern aesthetics and ergonomic functionality, this armchair is designed to elevate any living space. Its sleek profile and sturdy frame are upholstered in premium fabric, offering both durability and style. The chair's gently sloped arms and plush cushioning provide exceptional comfort, making it an ideal choice for reading nooks or as a stylish accent piece in a contemporary home.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 2500000,
+        "SKU": "SS002",
+        "category": [
+            "chair"
+        ],
+        "tags": [
+            "chair",
+            "indoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/leviosa.png"
+    },
+    {
+        "id": 131,
+        "name": "Lolito",
+        "shortDescription": "Luxury big sofa",
+        "description": "Transform your living room into a sanctuary of comfort and style with our luxury big sofa. Crafted from the finest materials, this sofa exudes elegance with its plush upholstery and sophisticated design. Sink into its deep cushions and experience unparalleled relaxation while enjoying its generous seating space. Perfect for entertaining guests or lounging with your loved ones, this statement piece effortlessly combines opulence with functionality, elevating your home decor to new heights of luxury.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 4.5,
+        "price": 14000000,
+        "SKU": "SS003",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/lolito.png"
+    },
+    {
+        "id": 132,
+        "name": "Respira",
+        "shortDescription": "Outdoor bar table and stool",
+        "description": "Transform your living room with this minimalist coffee table that merges practicality with modern aesthetics. Crafted with a polished marble top and sleek metal legs, it brings a sense of refinement to any decor. The spacious surface is ideal for displaying books or decor items, while the clean lines and sturdy construction ensure durability and style. Elevate your home with this versatile piece that complements both classic and contemporary interiors.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 3.5,
+        "price": 500000,
+        "SKU": "SS004",
+        "category": [
+            "table"
+        ],
+        "tags": [
+            "table",
+            "outdoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/respira.png"
+    },
+    {
+        "id": 133,
+        "name": "Grifo",
+        "shortDescription": "Night lamp",
+        "description": "Add a touch of artisanal elegance to your space with this ceramic-based table lamp. Featuring a hand-glazed finish and a linen drum shade, this lamp exudes sophistication and charm. Its sculptural base adds visual interest, while the soft glow from the shade creates a warm ambiance. Perfect for bedside tables or cozy corners, this lamp combines form and function seamlessly.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 1500000,
+        "SKU": "SS005",
+        "category": [
+            "lamp"
+        ],
+        "tags": [
+            "lamp",
+            "decoration",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/grifo.png"
+    },
+    {
+        "id": 134,
+        "name": "Muggo",
+        "shortDescription": "Small mug",
+        "description": "Enjoy your morning brew in style with this charming ceramic mug. Featuring a sleek, ergonomic design and a glossy finish, it offers a comfortable grip and keeps your favorite beverage warm. Whether you prefer coffee, tea, or hot chocolate, this versatile mug is the perfect companion for your daily routines, adding a touch of warmth and elegance to your kitchen or office.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.5,
+        "price": 150000,
+        "SKU": "SS006",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/muggo.png"
+    },
+    {
+        "id": 135,
+        "name": "Pingky",
+        "shortDescription": "Cute bed set",
+        "description": "Create a versatile seating arrangement with this luxurious sectional sofa that embodies comfort and style. Upholstered in durable linen fabric, it features a reversible chaise for flexibility in room layout. The deep seats and plush cushions offer ample support and relaxation, making it perfect for lounging or entertaining guests. With its modern design and spacious configuration, this sofa effortlessly enhances any living room with its blend of functionality and sophistication.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 14000000,
+        "SKU": "SS007",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "home",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/pingky.png"
+    },
+    {
+        "id": 136,
+        "name": "Potty",
+        "shortDescription": "Minimalist flower pot",
+        "description": "Enhance your indoor plants with this elegant ceramic vase. Its minimalist design and matte finish blend seamlessly with any decor, from modern to Scandinavian styles. Crafted from durable ceramic, it offers a sleek backdrop for showcasing your favorite houseplants or floral arrangements, adding a touch of sophistication to your living space.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.0,
+        "price": 500000,
+        "SKU": "SS008",
+        "category": [
+            "decoration"
+        ],
+        "tags": [
+            "decoration",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/potty.png"
+    },
+    {
+        "id": 137,
+        "name": "Potty",
+        "shortDescription": "Minimalist flower pot",
+        "description": "Enhance your indoor plants with this elegant ceramic vase. Its minimalist design and matte finish blend seamlessly with any decor, from modern to Scandinavian styles. Crafted from durable ceramic, it offers a sleek backdrop for showcasing your favorite houseplants or floral arrangements, adding a touch of sophistication to your living space.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.0,
+        "price": 500000,
+        "SKU": "SS008",
+        "category": [
+            "decoration"
+        ],
+        "tags": [
+            "decoration",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/potty.png"
+    },
+    {
+        "id": 138,
+        "name": "Pingky",
+        "shortDescription": "Cute bed set",
+        "description": "Create a versatile seating arrangement with this luxurious sectional sofa that embodies comfort and style. Upholstered in durable linen fabric, it features a reversible chaise for flexibility in room layout. The deep seats and plush cushions offer ample support and relaxation, making it perfect for lounging or entertaining guests. With its modern design and spacious configuration, this sofa effortlessly enhances any living room with its blend of functionality and sophistication.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 14000000,
+        "SKU": "SS007",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "home",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/pingky.png"
+    },
+    {
+        "id": 139,
+        "name": "Muggo",
+        "shortDescription": "Small mug",
+        "description": "Enjoy your morning brew in style with this charming ceramic mug. Featuring a sleek, ergonomic design and a glossy finish, it offers a comfortable grip and keeps your favorite beverage warm. Whether you prefer coffee, tea, or hot chocolate, this versatile mug is the perfect companion for your daily routines, adding a touch of warmth and elegance to your kitchen or office.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.5,
+        "price": 150000,
+        "SKU": "SS006",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/muggo.png"
+    },
+    {
+        "id": 140,
+        "name": "Grifo",
+        "shortDescription": "Night lamp",
+        "description": "Add a touch of artisanal elegance to your space with this ceramic-based table lamp. Featuring a hand-glazed finish and a linen drum shade, this lamp exudes sophistication and charm. Its sculptural base adds visual interest, while the soft glow from the shade creates a warm ambiance. Perfect for bedside tables or cozy corners, this lamp combines form and function seamlessly.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 1500000,
+        "SKU": "SS005",
+        "category": [
+            "lamp"
+        ],
+        "tags": [
+            "lamp",
+            "decoration",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/grifo.png"
+    },
+    {
+        "id": 141,
+        "name": "Respira",
+        "shortDescription": "Outdoor bar table and stool",
+        "description": "Transform your living room with this minimalist coffee table that merges practicality with modern aesthetics. Crafted with a polished marble top and sleek metal legs, it brings a sense of refinement to any decor. The spacious surface is ideal for displaying books or decor items, while the clean lines and sturdy construction ensure durability and style. Elevate your home with this versatile piece that complements both classic and contemporary interiors.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 3.5,
+        "price": 500000,
+        "SKU": "SS004",
+        "category": [
+            "table"
+        ],
+        "tags": [
+            "table",
+            "outdoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/respira.png"
+    },
+    {
+        "id": 142,
+        "name": "Lolito",
+        "shortDescription": "Luxury big sofa",
+        "description": "Transform your living room into a sanctuary of comfort and style with our luxury big sofa. Crafted from the finest materials, this sofa exudes elegance with its plush upholstery and sophisticated design. Sink into its deep cushions and experience unparalleled relaxation while enjoying its generous seating space. Perfect for entertaining guests or lounging with your loved ones, this statement piece effortlessly combines opulence with functionality, elevating your home decor to new heights of luxury.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 4.5,
+        "price": 14000000,
+        "SKU": "SS003",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/lolito.png"
+    },
+    {
+        "id": 143,
+        "name": "Leviosa",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Crafted with a blend of modern aesthetics and ergonomic functionality, this armchair is designed to elevate any living space. Its sleek profile and sturdy frame are upholstered in premium fabric, offering both durability and style. The chair's gently sloped arms and plush cushioning provide exceptional comfort, making it an ideal choice for reading nooks or as a stylish accent piece in a contemporary home.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 2500000,
+        "SKU": "SS002",
+        "category": [
+            "chair"
+        ],
+        "tags": [
+            "chair",
+            "indoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/leviosa.png"
+    },
+    {
+        "id": 144,
+        "name": "Syltherine",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "discount": 30,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 3500000,
+        "SKU": "SS001",
+        "category": [
+            "table",
+            "chair"
+        ],
+        "tags": [
+            "table",
+            "chair",
+            "dinning",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/syltherine.png"
+    },
+    {
+        "id": 145,
+        "name": "Syltherine",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "discount": 30,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 3500000,
+        "SKU": "SS001",
+        "category": [
+            "table",
+            "chair"
+        ],
+        "tags": [
+            "table",
+            "chair",
+            "dinning",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/syltherine.png"
+    },
+    {
+        "id": 146,
+        "name": "Leviosa",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Crafted with a blend of modern aesthetics and ergonomic functionality, this armchair is designed to elevate any living space. Its sleek profile and sturdy frame are upholstered in premium fabric, offering both durability and style. The chair's gently sloped arms and plush cushioning provide exceptional comfort, making it an ideal choice for reading nooks or as a stylish accent piece in a contemporary home.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 2500000,
+        "SKU": "SS002",
+        "category": [
+            "chair"
+        ],
+        "tags": [
+            "chair",
+            "indoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/leviosa.png"
+    },
+    {
+        "id": 147,
+        "name": "Lolito",
+        "shortDescription": "Luxury big sofa",
+        "description": "Transform your living room into a sanctuary of comfort and style with our luxury big sofa. Crafted from the finest materials, this sofa exudes elegance with its plush upholstery and sophisticated design. Sink into its deep cushions and experience unparalleled relaxation while enjoying its generous seating space. Perfect for entertaining guests or lounging with your loved ones, this statement piece effortlessly combines opulence with functionality, elevating your home decor to new heights of luxury.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 4.5,
+        "price": 14000000,
+        "SKU": "SS003",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/lolito.png"
+    },
+    {
+        "id": 148,
+        "name": "Respira",
+        "shortDescription": "Outdoor bar table and stool",
+        "description": "Transform your living room with this minimalist coffee table that merges practicality with modern aesthetics. Crafted with a polished marble top and sleek metal legs, it brings a sense of refinement to any decor. The spacious surface is ideal for displaying books or decor items, while the clean lines and sturdy construction ensure durability and style. Elevate your home with this versatile piece that complements both classic and contemporary interiors.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 3.5,
+        "price": 500000,
+        "SKU": "SS004",
+        "category": [
+            "table"
+        ],
+        "tags": [
+            "table",
+            "outdoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/respira.png"
+    },
+    {
+        "id": 149,
+        "name": "Grifo",
+        "shortDescription": "Night lamp",
+        "description": "Add a touch of artisanal elegance to your space with this ceramic-based table lamp. Featuring a hand-glazed finish and a linen drum shade, this lamp exudes sophistication and charm. Its sculptural base adds visual interest, while the soft glow from the shade creates a warm ambiance. Perfect for bedside tables or cozy corners, this lamp combines form and function seamlessly.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 1500000,
+        "SKU": "SS005",
+        "category": [
+            "lamp"
+        ],
+        "tags": [
+            "lamp",
+            "decoration",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/grifo.png"
+    },
+    {
+        "id": 150,
+        "name": "Muggo",
+        "shortDescription": "Small mug",
+        "description": "Enjoy your morning brew in style with this charming ceramic mug. Featuring a sleek, ergonomic design and a glossy finish, it offers a comfortable grip and keeps your favorite beverage warm. Whether you prefer coffee, tea, or hot chocolate, this versatile mug is the perfect companion for your daily routines, adding a touch of warmth and elegance to your kitchen or office.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.5,
+        "price": 150000,
+        "SKU": "SS006",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/muggo.png"
+    },
+    {
+        "id": 151,
+        "name": "Pingky",
+        "shortDescription": "Cute bed set",
+        "description": "Create a versatile seating arrangement with this luxurious sectional sofa that embodies comfort and style. Upholstered in durable linen fabric, it features a reversible chaise for flexibility in room layout. The deep seats and plush cushions offer ample support and relaxation, making it perfect for lounging or entertaining guests. With its modern design and spacious configuration, this sofa effortlessly enhances any living room with its blend of functionality and sophistication.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 14000000,
+        "SKU": "SS007",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "home",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/pingky.png"
+    },
+    {
+        "id": 152,
+        "name": "Potty",
+        "shortDescription": "Minimalist flower pot",
+        "description": "Enhance your indoor plants with this elegant ceramic vase. Its minimalist design and matte finish blend seamlessly with any decor, from modern to Scandinavian styles. Crafted from durable ceramic, it offers a sleek backdrop for showcasing your favorite houseplants or floral arrangements, adding a touch of sophistication to your living space.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.0,
+        "price": 500000,
+        "SKU": "SS008",
+        "category": [
+            "decoration"
+        ],
+        "tags": [
+            "decoration",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/potty.png"
+    },
+    {
+        "id": 153,
+        "name": "Potty",
+        "shortDescription": "Minimalist flower pot",
+        "description": "Enhance your indoor plants with this elegant ceramic vase. Its minimalist design and matte finish blend seamlessly with any decor, from modern to Scandinavian styles. Crafted from durable ceramic, it offers a sleek backdrop for showcasing your favorite houseplants or floral arrangements, adding a touch of sophistication to your living space.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.0,
+        "price": 500000,
+        "SKU": "SS008",
+        "category": [
+            "decoration"
+        ],
+        "tags": [
+            "decoration",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/potty.png"
+    },
+    {
+        "id": 154,
+        "name": "Pingky",
+        "shortDescription": "Cute bed set",
+        "description": "Create a versatile seating arrangement with this luxurious sectional sofa that embodies comfort and style. Upholstered in durable linen fabric, it features a reversible chaise for flexibility in room layout. The deep seats and plush cushions offer ample support and relaxation, making it perfect for lounging or entertaining guests. With its modern design and spacious configuration, this sofa effortlessly enhances any living room with its blend of functionality and sophistication.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 14000000,
+        "SKU": "SS007",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "home",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/pingky.png"
+    },
+    {
+        "id": 155,
+        "name": "Muggo",
+        "shortDescription": "Small mug",
+        "description": "Enjoy your morning brew in style with this charming ceramic mug. Featuring a sleek, ergonomic design and a glossy finish, it offers a comfortable grip and keeps your favorite beverage warm. Whether you prefer coffee, tea, or hot chocolate, this versatile mug is the perfect companion for your daily routines, adding a touch of warmth and elegance to your kitchen or office.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 4.5,
+        "price": 150000,
+        "SKU": "SS006",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/muggo.png"
+    },
+    {
+        "id": 156,
+        "name": "Grifo",
+        "shortDescription": "Night lamp",
+        "description": "Add a touch of artisanal elegance to your space with this ceramic-based table lamp. Featuring a hand-glazed finish and a linen drum shade, this lamp exudes sophistication and charm. Its sculptural base adds visual interest, while the soft glow from the shade creates a warm ambiance. Perfect for bedside tables or cozy corners, this lamp combines form and function seamlessly.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 1500000,
+        "SKU": "SS005",
+        "category": [
+            "lamp"
+        ],
+        "tags": [
+            "lamp",
+            "decoration",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/grifo.png"
+    },
+    {
+        "id": 157,
+        "name": "Respira",
+        "shortDescription": "Outdoor bar table and stool",
+        "description": "Transform your living room with this minimalist coffee table that merges practicality with modern aesthetics. Crafted with a polished marble top and sleek metal legs, it brings a sense of refinement to any decor. The spacious surface is ideal for displaying books or decor items, while the clean lines and sturdy construction ensure durability and style. Elevate your home with this versatile piece that complements both classic and contemporary interiors.",
+        "discount": 0,
+        "sale": false,
+        "new": true,
+        "stars": 3.5,
+        "price": 500000,
+        "SKU": "SS004",
+        "category": [
+            "table"
+        ],
+        "tags": [
+            "table",
+            "outdoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/respira.png"
+    },
+    {
+        "id": 158,
+        "name": "Lolito",
+        "shortDescription": "Luxury big sofa",
+        "description": "Transform your living room into a sanctuary of comfort and style with our luxury big sofa. Crafted from the finest materials, this sofa exudes elegance with its plush upholstery and sophisticated design. Sink into its deep cushions and experience unparalleled relaxation while enjoying its generous seating space. Perfect for entertaining guests or lounging with your loved ones, this statement piece effortlessly combines opulence with functionality, elevating your home decor to new heights of luxury.",
+        "discount": 50,
+        "sale": true,
+        "new": false,
+        "stars": 4.5,
+        "price": 14000000,
+        "SKU": "SS003",
+        "category": [
+            "sofa"
+        ],
+        "tags": [
+            "sofa",
+            "indoor",
+            "living"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/lolito.png"
+    },
+    {
+        "id": 159,
+        "name": "Leviosa",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Crafted with a blend of modern aesthetics and ergonomic functionality, this armchair is designed to elevate any living space. Its sleek profile and sturdy frame are upholstered in premium fabric, offering both durability and style. The chair's gently sloped arms and plush cushioning provide exceptional comfort, making it an ideal choice for reading nooks or as a stylish accent piece in a contemporary home.",
+        "discount": 0,
+        "sale": false,
+        "new": false,
+        "stars": 4.5,
+        "price": 2500000,
+        "SKU": "SS002",
+        "category": [
+            "chair"
+        ],
+        "tags": [
+            "chair",
+            "indoor",
+            "shop",
+            "home"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/leviosa.png"
+    },
+    {
+        "id": 160,
+        "name": "Syltherine",
+        "shortDescription": "Stylish cafe chair",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "discount": 30,
+        "sale": true,
+        "new": false,
+        "stars": 3.5,
+        "price": 3500000,
+        "SKU": "SS001",
+        "category": [
+            "table",
+            "chair"
+        ],
+        "tags": [
+            "table",
+            "chair",
+            "dinning",
+            "indoor"
+        ],
+        "size": [
+            "L",
+            "XL",
+            "XS"
+        ],
+        "color": [
+            "purple",
+            "black",
+            "brown"
+        ],
+        "stock": 10,
+        "image": "https://pb-desafio3.s3.us-east-2.amazonaws.com/syltherine.png"
+    }
+]
+}
