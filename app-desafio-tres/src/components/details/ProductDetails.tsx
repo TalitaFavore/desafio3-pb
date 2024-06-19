@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import NumericInput from "./NumericInput";
 
 const ProductDetails = () => {
   const [selectedSize, setSelectedSize] = useState<string | null>(null);
@@ -68,7 +69,7 @@ const ProductDetails = () => {
         </div>
 
         <div className="flex items-center space-x-4 my-4">
-          <button>1</button>
+          <NumericInput initialValue={1} min={1} max={100}/>
           <button className="pl-8 pr-8 pt-3 pb-3 rounded-xl text-black border hover:bg-secondary hover:text-black">
             Add To Cart
           </button>
