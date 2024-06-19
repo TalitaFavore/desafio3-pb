@@ -47,9 +47,9 @@ const ProductDetails = () => {
           <p className="mt-3 mb-3 text-gray">Color</p>
           <div className="flex space-x-2">
             {[
-              { name: "Red", hex: "#816DFA" },
-              { name: "Green", hex: "#000000" },
-              { name: "Blue", hex: "#B88E2F" },
+              { name: "Purple", hex: "#816DFA" },
+              { name: "Black", hex: "#000000" },
+              { name: "Brown", hex: "#B88E2F" },
             ].map((color) => (
               <button
                 key={color.name}
