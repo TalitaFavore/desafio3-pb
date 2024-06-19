@@ -16,13 +16,13 @@ const ProductDetails = () => {
 
   return (
     <div>
-      <div className="font-poppins w-1/3">
+      <div className="font-poppins">
         <h1 className="text-3xl">Asgaard sofa</h1>
         <h2 className="font-medium text-gray mb-2">Rs. 250,000.00</h2>
         <div className="flex items-center text-gray">
           <Stars stars={2.5} />| 5 Customer Review
         </div>
-        <p className="mt-2 mb-5 w-4/5">
+        <p className="mt-2 mb-5 w-3/4">
           Setting the bar as one of the loudest speakers in its class, the
           Kilburn is a compact, stout-hearted hero with a well-balanced audio
           which boasts a clear midrange and extended highs for a sound.
@@ -49,7 +49,7 @@ const ProductDetails = () => {
 
         <div>
           <p className="mt-3 mb-3 text-gray">Color</p>
-          <div className="flex space-x-2">
+          <div className="flex gap-5">
             {[
               { name: "Purple", hex: "#816DFA" },
               { name: "Black", hex: "#000000" },
@@ -78,7 +78,7 @@ const ProductDetails = () => {
           </button>
         </div>
 
-        <hr className="border-gray-800 my-10" />
+        <hr className="border-gray8 my-10" />
 
         <div className="text-gray">
           <p className="mb-2">SKU: SS001</p>
