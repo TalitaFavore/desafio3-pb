@@ -25,7 +25,7 @@ const NumericInput = ({ initialValue = 0, min = 0, max = 100 }: NumericInputProp
     <div className="flex items-center border border-gray rounded-lg">
       <button
         onClick={handleDecrement}
-        className="w-4 h-8 flex justify-center items-center cursor-pointer ml-2 mt-1 mb-1"
+        className="w-4 h-9 flex justify-center items-center cursor-pointer ml-2 mt-1 mb-1"
       >
         -
       </button>
@@ -33,11 +33,11 @@ const NumericInput = ({ initialValue = 0, min = 0, max = 100 }: NumericInputProp
         type="text"
         value={value}
         readOnly
-        className="w-10 h-8 text-center mx-1 mt-1 mb-1"
+        className="w-10 h-9 text-center mx-1 mt-1 mb-1"
       />
       <button
         onClick={handleIncrement}
-        className="w-4 h-8 flex justify-center items-center cursor-pointer mr-2 mt-1 mb-1"
+        className="w-4 h-9 flex justify-center items-center cursor-pointer mr-2 mt-1 mb-1"
       >
         +
       </button>

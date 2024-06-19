@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import NumericInput from "./NumericInput";
+import Stars from "./Stars";
 
 const ProductDetails = () => {
   const [selectedSize, setSelectedSize] = useState<string | null>(null);
@@ -17,9 +18,11 @@ const ProductDetails = () => {
     <div>
       <div className="font-poppins w-1/3">
         <h1 className="text-3xl">Asgaard sofa</h1>
-        <h2 className="font-medium text-gray mb-4">Rs. 250,000.00</h2>
-        <div className="text-gray">Stars | 5 Customer Review</div>
-        <p className="mt-4 mb-5 w-4/5">
+        <h2 className="font-medium text-gray mb-2">Rs. 250,000.00</h2>
+        <div className="flex items-center text-gray">
+          <Stars stars={2.5} />| 5 Customer Review
+        </div>
+        <p className="mt-2 mb-5 w-4/5">
           Setting the bar as one of the loudest speakers in its class, the
           Kilburn is a compact, stout-hearted hero with a well-balanced audio
           which boasts a clear midrange and extended highs for a sound.
@@ -56,7 +59,7 @@ const ProductDetails = () => {
                 key={color.name}
                 onClick={() => handleColorSelect(color.hex)}
                 className={`p-2 rounded-full ${
-                  selectedColor === color.hex ? "border-2 border-gray5" : ""
+                  selectedColor === color.hex ? "border-2 border-gray-500" : ""
                 }`}
                 style={{
                   backgroundColor: color.hex,
@@ -69,13 +72,13 @@ const ProductDetails = () => {
         </div>
 
         <div className="flex items-center space-x-4 my-4">
-          <NumericInput initialValue={1} min={1} max={100}/>
+          <NumericInput initialValue={1} min={1} max={100} />
           <button className="pl-8 pr-8 pt-3 pb-3 rounded-xl text-black border hover:bg-secondary hover:text-black">
             Add To Cart
           </button>
         </div>
 
-        <hr className="border-gray8 mt-10 mb-8" />
+        <hr className="border-gray-800 my-10" />
 
         <div className="text-gray">
           <p className="mb-2">SKU: SS001</p>
