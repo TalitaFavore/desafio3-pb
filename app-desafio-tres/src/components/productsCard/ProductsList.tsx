@@ -1,28 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import ProductsCard from './ProductsCard';
- 
-interface Product {
-  id: number;
-  name: string;
-  shortDescription: string;
-  price: number;
-  image: string;
-  new: boolean;
-  sale: boolean;
-  discount: number;
-}
- 
-interface ProductListProps {
+import { Product } from '../types/productTypes'; 
+
+interface ProductsListProps {
   productsPerPage: number;
   currentPage: number;
 }
- 
-const ProductsList = ({ currentPage, productsPerPage }: ProductListProps) => {
+
+const ProductsList = ({ currentPage, productsPerPage }: ProductsListProps) => {
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
- 
+
   useEffect(() => {
     const fetchProducts = async () => {
       setLoading(true);
@@ -36,21 +26,21 @@ const ProductsList = ({ currentPage, productsPerPage }: ProductListProps) => {
         setLoading(false);
       }
     };
- 
+
     fetchProducts();
   }, []);
- 
+
   if (loading) {
     return <div>Loading...</div>;
   }
- 
+
   if (error) {
     return <div>{error}</div>;
   }
- 
+
   const startIndex = (currentPage - 1) * productsPerPage;
   const currentProducts = products.slice(startIndex, startIndex + productsPerPage);
- 
+
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
       {currentProducts.map((product) => (
@@ -59,5 +49,5 @@ const ProductsList = ({ currentPage, productsPerPage }: ProductListProps) => {
     </div>
   );
 };
- 
+
 export default ProductsList;

@@ -1,16 +1,9 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
-
-interface Product {
-  id: number;
-  name: string;
-  shortDescription: string;
-  price: number;
-  image: string;
-  new: boolean;
-  sale: boolean;
-  discount: number;
-}
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import { Product } from "../types/productTypes";
+import ShareIcon from "@mui/icons-material/Share";
+import CompareArrowsIcon from '@mui/icons-material/CompareArrows';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 
 interface ProductsCardProps {
   product: Product;
@@ -18,14 +11,16 @@ interface ProductsCardProps {
 
 const ProductsCard = ({ product }: ProductsCardProps) => {
   const navigate = useNavigate();
-  const discountedPrice = product.sale ? product.price * (1 - product.discount / 100) : product.price;
+  const discountedPrice = product.sale
+    ? product.price * (1 - product.discount / 100)
+    : product.price;
 
   const handleProductClick = () => {
     navigate(`/single/${product.id}`);
   };
 
   return (
-    <div 
+    <div
       className="relative max-w-sm overflow-hidden bg-gray3 m-2 text-gray4 font-poppins group cursor-pointer"
       onClick={handleProductClick}
     >
@@ -34,12 +29,18 @@ const ProductsCard = ({ product }: ProductsCardProps) => {
         <div className="font-bold text-xl">{product.name}</div>
         <p className="text-gray5">{product.shortDescription}</p>
         {product.sale ? (
-          <div className='flex flex-row justify-between items-center'>
-            <p className="text-gray4 font-semibold text-xl">Rp {discountedPrice.toLocaleString()}</p>
-            <p className="text-gray6 line-through">Rp {product.price.toLocaleString()}</p>
+          <div className="flex flex-row justify-between items-center">
+            <p className="text-gray4 font-semibold text-xl">
+              Rp {discountedPrice.toLocaleString()}
+            </p>
+            <p className="text-gray6 line-through">
+              Rp {product.price.toLocaleString()}
+            </p>
           </div>
         ) : (
-          <p className="text-gray4 font-semibold text-xl">Rp {product.price.toLocaleString()}</p>
+          <p className="text-gray4 font-semibold text-xl">
+            Rp {product.price.toLocaleString()}
+          </p>
         )}
       </div>
       {product.new && (
@@ -54,11 +55,24 @@ const ProductsCard = ({ product }: ProductsCardProps) => {
       )}
 
       <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-        <div className="flex space-x-2">
-          <button className="text-white px-4 py-2 bg-primary rounded-lg">Add to Cart</button>
-          <button className="text-white px-4 py-2 bg-secondary rounded-lg">Share</button>
-          <button className="text-white px-4 py-2 bg-secondary rounded-lg">Compare</button>
-          <button className="text-white px-4 py-2 bg-secondary rounded-lg">Like</button>
+        <div className="flex flex-col items-center">
+          <button className="flex justify-center text-primary pt-2 pb-2 mb-8 bg-white w-48">
+            Add to Cart
+          </button>
+          <div className="flex flex-row mr-3">
+            <button className="flex items-center text-white">
+              <ShareIcon style={{ color: 'white' }} className="w-3 h-3 ml-2" />
+              Share
+            </button>
+            <button className="flex items-center text-white">
+              <CompareArrowsIcon style={{ color: 'white' }} className="w-3 h-3 ml-2" />
+              Compare
+            </button>
+            <button className="flex items-center text-white">
+              <FavoriteBorderIcon style={{ color: 'white' }} className="w-3 h-3 ml-2" />
+              Like
+            </button>
+          </div>
         </div>
       </div>
     </div>
