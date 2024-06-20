@@ -15,7 +15,7 @@ const AppRoutes: React.FC = () => {
       <Route path="/login" element={<LoginScreen />} />
       <Route path="/shop" element={<ShopScreen />} />
       <Route path="/contact" element={<ContactScreen />} />
-      <Route path="/single" element={<SingleProductScreen />} />
+      <Route path="/single/:id" element={<SingleProductScreen />} />
       <Route path="/error" element={<ErrorScreen />} />
       <Route path="/checkout" element={<CheckoutScreen />} />
     </Routes>
