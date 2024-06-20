@@ -2,6 +2,8 @@ export interface CartItem {
     productId: number;
     productName: string;
     quantity: number;
+    price: number;
+    image: string;  
   }
   
   export interface CartState {
@@ -24,17 +26,17 @@ export interface CartItem {
   
   interface RemoveFromCartAction {
     type: CartActionTypes.REMOVE_FROM_CART;
-    payload: number; // ID do produto
+    payload: number; 
   }
   
   interface DecrementItemAction {
     type: CartActionTypes.DECREMENT_ITEM;
-    payload: number; // ID do produto
+    payload: number; 
   }
   
   interface IncrementItemAction {
     type: CartActionTypes.INCREMENT_ITEM;
-    payload: number; // ID do produto
+    payload: number; 
   }
   
   export type CartAction =

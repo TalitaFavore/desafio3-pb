@@ -1,8 +1,23 @@
-import { legacy_createStore as createStore, applyMiddleware } from 'redux';
+import { legacy_createStore as createStore, applyMiddleware, Store } from 'redux';
 import {thunk} from 'redux-thunk';
-import rootReducer from '../reducers';
+import { persistStore, persistReducer } from 'redux-persist';
+import storage from 'redux-persist/lib/storage';
+import rootReducer, { RootState } from '../reducers';
+import { RootAction } from '../types/types';
 
-// @ts-ignore
-const store = createStore(rootReducer, applyMiddleware(thunk));
+const persistConfig = {
+  key: 'root',
+  storage,
+  whitelist: ['cart'],
+};
 
-export default store;
+const persistedReducer = persistReducer<any, RootAction>(persistConfig, rootReducer as any);
+
+const store: Store<Partial<RootState>, RootAction> & { dispatch: unknown } = createStore(
+  persistedReducer,
+  applyMiddleware(thunk)
+);
+
+const persistor = persistStore(store);
+
+export { store, persistor };

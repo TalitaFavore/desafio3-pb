@@ -1,22 +1,39 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { Product } from "../types/productTypes";
+import { useDispatch } from 'react-redux';
+import { addToCart } from "../../redux/actions/cartActions";
 import ShareIcon from "@mui/icons-material/Share";
 import CompareArrowsIcon from '@mui/icons-material/CompareArrows';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import { Product } from "../types/productTypes";
+import { CartItem } from '../../redux/types/cartTypes';
 
 interface ProductsCardProps {
   product: Product;
 }
 
 const ProductsCard = ({ product }: ProductsCardProps) => {
+  const dispatch = useDispatch();
   const navigate = useNavigate();
+
   const discountedPrice = product.sale
     ? product.price * (1 - product.discount / 100)
     : product.price;
 
   const handleProductClick = () => {
     navigate(`/single/${product.id}`);
+  };
+
+  const handleAddToCart = () => {
+    const cartItem: CartItem = {
+      productId: parseInt(product.id),
+      productName: product.name,
+      price: product.price,
+      quantity: 1,
+      image: product.image,
+    };
+    dispatch(addToCart(cartItem) as any); 
+    console.log(cartItem);
   };
 
   return (
@@ -56,7 +73,7 @@ const ProductsCard = ({ product }: ProductsCardProps) => {
 
       <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <div className="flex flex-col items-center">
-          <button className="flex justify-center text-primary pt-2 pb-2 mb-8 bg-white w-48">
+          <button onClick={handleAddToCart} className="flex justify-center text-primary pt-2 pb-2 mb-8 bg-white w-48">
             Add to Cart
           </button>
           <div className="flex flex-row mr-3">

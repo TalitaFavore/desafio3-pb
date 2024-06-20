@@ -1,4 +1,3 @@
-// actions/cartActions.ts
 import { CartActionTypes, CartItem, CartAction } from "../types/cartTypes";
 
 export const addToCart = (item: CartItem): CartAction => ({
