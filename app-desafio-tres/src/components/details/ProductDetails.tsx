@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import { useDispatch } from 'react-redux';
+import { addToCart } from "../../redux/actions/cartActions";
 import NumericInput from "./NumericInput";
 import Stars from "./Stars";
 
@@ -15,6 +17,7 @@ interface Product {
   sku: string;
   category: string;
   tags: string[];
+  image: string;
 }
 
 const ProductDetails = () => {
@@ -22,6 +25,8 @@ const ProductDetails = () => {
   const [product, setProduct] = useState<Product | null>(null);
   const [selectedSize, setSelectedSize] = useState<string | null>(null);
   const [selectedColor, setSelectedColor] = useState<string | null>(null);
+  const [quantity, setQuantity] = useState<number>(1);
+  const dispatch = useDispatch();
 
   useEffect(() => {
     const fetchProduct = async () => {
@@ -47,6 +52,19 @@ const ProductDetails = () => {
 
   const handleColorSelect = (color: string) => {
     setSelectedColor(color);
+  };
+
+  const handleAddToCart = () => {
+    if (product) {
+      const cartItem = {
+        productId: parseInt(product.id),
+        productName: product.name,
+        price: product.price,
+        quantity: quantity,
+        image: product.image,
+      };
+      dispatch(addToCart(cartItem) as any);
+    }
   };
 
   return (
@@ -103,8 +121,11 @@ const ProductDetails = () => {
       </div>
 
       <div className="flex items-center space-x-4 my-4">
-        <NumericInput initialValue={1} min={1} max={100} />
-        <button className="pl-8 pr-8 pt-3 pb-3 rounded-xl text-black border hover:bg-secondary hover:text-black">
+        <NumericInput initialValue={1} min={1} max={100} onValueChange={setQuantity} />
+        <button
+          onClick={handleAddToCart}
+          className="pl-8 pr-8 pt-3 pb-3 rounded-xl text-black border hover:bg-secondary hover:text-black"
+        >
           Add To Cart
         </button>
       </div>
