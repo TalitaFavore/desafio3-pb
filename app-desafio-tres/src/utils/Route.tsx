@@ -7,6 +7,7 @@ import ContactScreen from '../pages/ContactScreen';
 import SingleProductScreen from '../pages/SingleProductScreen';
 import ErrorScreen from '../pages/ErrorScreen';
 import CheckoutScreen from '../pages/CheckoutScreen';
+import CartScreen from '../pages/CartScreen';
 
 const AppRoutes: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const AppRoutes: React.FC = () => {
       <Route path="/single/:id" element={<SingleProductScreen />} />
       <Route path="/error" element={<ErrorScreen />} />
       <Route path="/checkout" element={<CheckoutScreen />} />
+      <Route path="/cart" element={<CartScreen />} />
     </Routes>
   );
 };
