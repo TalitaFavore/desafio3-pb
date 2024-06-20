@@ -4,6 +4,7 @@ import Header from '../components/header/Header'
 import Cart from '../components/cart/Cart'
 import WarrantyBar from '../components/warranty/WarrantyBar'
 import Footer from '../components/footer/Footer'
+import Overlay from '../components/cart/Overlay'
 
 const CartScreen = () => {
   return (
@@ -13,6 +14,7 @@ const CartScreen = () => {
       <Cart/>
       <WarrantyBar/>
       <Footer/>
+      <Overlay/>
     </div>
   )
 }
