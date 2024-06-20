@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 interface Product {
   id: number;
@@ -15,11 +16,19 @@ interface ProductsCardProps {
   product: Product;
 }
 
-function ProductsCard({ product }: ProductsCardProps) {
+const ProductsCard = ({ product }: ProductsCardProps) => {
+  const navigate = useNavigate();
   const discountedPrice = product.sale ? product.price * (1 - product.discount / 100) : product.price;
 
+  const handleProductClick = () => {
+    navigate(`/single/${product.id}`);
+  };
+
   return (
-    <div className="relative max-w-sm overflow-hidden bg-gray3 m-2 text-gray4 font-poppins">
+    <div 
+      className="relative max-w-sm overflow-hidden bg-gray3 m-2 text-gray4 font-poppins group cursor-pointer"
+      onClick={handleProductClick}
+    >
       <img className="w-full" src={product.image} alt={product.name} />
       <div className="pl-6 pr-6 pt-4 pb-4 mb-2">
         <div className="font-bold text-xl">{product.name}</div>
@@ -40,11 +49,20 @@ function ProductsCard({ product }: ProductsCardProps) {
       )}
       {product.sale && (
         <div className="absolute top-2 right-2 bg-lightRed text-white text-xs font-bold w-10 h-10 flex items-center justify-center rounded-full">
-          -{product.discount}% 
+          -{product.discount}%
         </div>
       )}
+
+      <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <div className="flex space-x-2">
+          <button className="text-white px-4 py-2 bg-primary rounded-lg">Add to Cart</button>
+          <button className="text-white px-4 py-2 bg-secondary rounded-lg">Share</button>
+          <button className="text-white px-4 py-2 bg-secondary rounded-lg">Compare</button>
+          <button className="text-white px-4 py-2 bg-secondary rounded-lg">Like</button>
+        </div>
+      </div>
     </div>
   );
-}
+};
 
 export default ProductsCard;
