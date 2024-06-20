@@ -1,23 +1,34 @@
 import React, { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { incrementItem, decrementItem } from '../../redux/actions/cartActions';
 
 interface NumericInputProps {
   initialValue?: number;
   min?: number;
   max?: number;
+  productId?: number; 
+  isCartPage?: boolean; 
 }
 
-const NumericInput = ({ initialValue = 0, min = 0, max = 100 }: NumericInputProps) => {
+const NumericInput = ({ initialValue = 0, min = 0, max = 100, productId, isCartPage = false }: NumericInputProps) => {
   const [value, setValue] = useState(initialValue);
+  const dispatch = useDispatch();
 
   const handleIncrement = () => {
     if (value < max) {
       setValue(prevValue => prevValue + 1);
+      if (isCartPage && productId !== undefined) {
+        dispatch(incrementItem(productId) as any);
+      }
     }
   };
 
   const handleDecrement = () => {
     if (value > min) {
       setValue(prevValue => prevValue - 1);
+      if (isCartPage && productId !== undefined) {
+        dispatch(decrementItem(productId) as any);
+      }
     }
   };
 

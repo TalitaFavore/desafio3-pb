@@ -1,11 +1,17 @@
 import React from "react";
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import NumericInput from "../details/NumericInput";
 import { RootState } from "../../redux/reducers";
 import { CartItem } from "../../redux/types/cartTypes";
+import { removeFromCart } from "../../redux/actions/cartActions";
 
 const Cart = () => {
+  const dispatch = useDispatch();
   const cartItems = useSelector((state: RootState) => state.cart.items);
+
+  const handleRemoveFromCart = (productId: number) => {
+    dispatch(removeFromCart(productId) as any);
+  };
 
   const renderCartItems = () => {
     return cartItems.map((item: CartItem) => (
@@ -13,9 +19,14 @@ const Cart = () => {
         <img src={item.image} alt={item.productName} className="w-20 rounded-lg" />
         <p>{item.productName}</p>
         <p>Rp. {item.price.toLocaleString()}</p>
-        <NumericInput initialValue={item.quantity} min={1} max={100} />
+        <NumericInput initialValue={item.quantity} min={1} max={100} productId={item.productId} isCartPage={true} />
         <p className="text-black">Rp. {(item.price * item.quantity).toLocaleString()}</p>
-        <img src="https://pb-desafio3.s3.us-east-2.amazonaws.com/trash.svg" alt="Delete" />
+        <img 
+          src="https://pb-desafio3.s3.us-east-2.amazonaws.com/trash.svg" 
+          alt="Delete" 
+          onClick={() => handleRemoveFromCart(item.productId)} 
+          className="cursor-pointer" 
+        />
       </div>
     ));
   };
