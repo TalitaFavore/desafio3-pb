@@ -12,8 +12,6 @@ const rootReducer = combineReducers({
   email: emailReducer,
 });
 
-
-// Combina todas as interfaces de estado em um único tipo RootState
 export type RootState = {
   products: ProductState;
   cart: CartState;
