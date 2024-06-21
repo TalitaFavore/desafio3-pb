@@ -42,7 +42,7 @@ const Navbar = () => {
               <ActiveLink to="/shop">Shop</ActiveLink>
             </li>
             <li>
-              <ActiveLink to="/about">About</ActiveLink>
+              <ActiveLink to="/error">About</ActiveLink>
             </li>
             <li>
               <ActiveLink to="/contact">Contact</ActiveLink>
@@ -51,8 +51,14 @@ const Navbar = () => {
         </nav>
         <div className="hidden lg:block">
           <div className="flex flex-row gap-6 ml-12">
+            <Link to="/login">
             <img src="https://pb-desafio3.s3.us-east-2.amazonaws.com/user.svg" alt="ícone de user" className="cursor-pointer "/>
+            </Link>
+            
+            <Link to="/cart">
             <img src="https://pb-desafio3.s3.us-east-2.amazonaws.com/shopping-cart.svg" alt="ícone de carrinho de compras" className="cursor-pointer"/>
+            </Link>
+            
           </div>
         </div>
 

@@ -4,6 +4,7 @@ import NumericInput from "../details/NumericInput";
 import { RootState } from "../../redux/reducers";
 import { CartItem } from "../../redux/types/cartTypes";
 import { removeFromCart } from "../../redux/actions/cartActions";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
   const dispatch = useDispatch();
@@ -59,7 +60,9 @@ const Cart = () => {
           <p>Total</p>
           <p className="text-primary font-medium text-lg">Rp. {calculateSubtotal().toLocaleString()}</p>
         </div>
+        <Link to="/checkout">
         <button className="flex border rounded-xl w-2/5 m-auto justify-center pt-3 pb-3">Check Out</button>
+        </Link>
       </div>
 
     </div>

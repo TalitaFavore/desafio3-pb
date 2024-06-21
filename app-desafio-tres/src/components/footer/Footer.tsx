@@ -2,6 +2,7 @@ import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { EmailActionTypes } from "../../redux/types/emailTypes";
 import { RootState } from "../../redux/reducers";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const dispatch = useDispatch();
@@ -82,10 +83,21 @@ const Footer = () => {
         <div className="flex flex-col text-sm font-medium">
           <ul>
             <li className="pb-10 text-gray">Links</li>
+            <Link to="/">
             <li className="pb-10 hover:text-primary">Home</li>
+            </Link>
+            <Link to="/shop">
             <li className="pb-10 hover:text-primary">Shop</li>
+            </Link>
+            
+            <Link to="/error">
             <li className="pb-10 hover:text-primary">About</li>
+            </Link>
+            
+            <Link to="/contact">
             <li className="pb-10 hover:text-primary">Contact</li>
+            </Link>
+            
           </ul>
         </div>
 
