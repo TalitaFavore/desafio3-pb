@@ -9,11 +9,9 @@ const contactSchema = z.object({
     .string()
     .min(3, { message: "Name must be longer than 2 characters" })
     .regex(/^[^\d]+$/, { message: "Name must not contain numbers" }),
-  email: z
-    .string()
-    .email({
-      message: "Invalid email format. Try something like: name@gmail.com",
-    }),
+  email: z.string().email({
+    message: "Invalid email format. Try something like: name@gmail.com",
+  }),
   message: z
     .string()
     .min(10, { message: "Message must be at least 10 characters long" })

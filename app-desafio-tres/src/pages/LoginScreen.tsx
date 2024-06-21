@@ -1,7 +1,7 @@
 import React from 'react';
 import Login from '../components/login/Login';
 
-const LoginScreen: React.FC = () => {
+const LoginScreen = () => {
   return (
     <div>
       <Login />

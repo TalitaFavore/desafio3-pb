@@ -1,5 +1,5 @@
 import React from "react";
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector, useDispatch } from "react-redux";
 import NumericInput from "../details/NumericInput";
 import { RootState } from "../../redux/reducers";
 import { CartItem } from "../../redux/types/cartTypes";
@@ -16,24 +16,42 @@ const Cart = () => {
 
   const renderCartItems = () => {
     return cartItems.map((item: CartItem) => (
-      <div key={item.productId} className="flex flex-row justify-between items-center mt-12 text-gray">
-        <img src={item.image} alt={item.productName} className="w-20 rounded-lg" />
+      <div
+        key={item.productId}
+        className="flex flex-row justify-between items-center mt-12 text-gray"
+      >
+        <img
+          src={item.image}
+          alt={item.productName}
+          className="w-20 rounded-lg"
+        />
         <p>{item.productName}</p>
         <p>Rp. {item.price.toLocaleString()}</p>
-        <NumericInput initialValue={item.quantity} min={1} max={100} productId={item.productId} isCartPage={true} />
-        <p className="text-black">Rp. {(item.price * item.quantity).toLocaleString()}</p>
-        <img 
-          src="https://pb-desafio3.s3.us-east-2.amazonaws.com/trash.svg" 
-          alt="Delete" 
-          onClick={() => handleRemoveFromCart(item.productId)} 
-          className="cursor-pointer" 
+        <NumericInput
+          initialValue={item.quantity}
+          min={1}
+          max={100}
+          productId={item.productId}
+          isCartPage={true}
+        />
+        <p className="text-black">
+          Rp. {(item.price * item.quantity).toLocaleString()}
+        </p>
+        <img
+          src="https://pb-desafio3.s3.us-east-2.amazonaws.com/trash.svg"
+          alt="Delete"
+          onClick={() => handleRemoveFromCart(item.productId)}
+          className="cursor-pointer"
         />
       </div>
     ));
   };
 
   const calculateSubtotal = () => {
-    return cartItems.reduce((total, item) => total + (item.price * item.quantity), 0);
+    return cartItems.reduce(
+      (total, item) => total + item.price * item.quantity,
+      0
+    );
   };
 
   return (
@@ -47,24 +65,30 @@ const Cart = () => {
         </div>
 
         {renderCartItems()}
-
       </div>
 
       <div className="flex flex-col pt-4 pb-20 w-1/3 bg-secondary">
-        <h1 className="flex font-semibold text-3xl mb-10 justify-center">Cart Totals</h1>
+        <h1 className="flex font-semibold text-3xl mb-10 justify-center">
+          Cart Totals
+        </h1>
         <div className="flex mb-5 pl-28 gap-8">
           <p>Subtotal</p>
-          <p className="text-gray">Rp. {calculateSubtotal().toLocaleString()}</p>
+          <p className="text-gray">
+            Rp. {calculateSubtotal().toLocaleString()}
+          </p>
         </div>
         <div className="flex mb-12 pl-28 gap-8">
           <p>Total</p>
-          <p className="text-primary font-medium text-lg">Rp. {calculateSubtotal().toLocaleString()}</p>
+          <p className="text-primary font-medium text-lg">
+            Rp. {calculateSubtotal().toLocaleString()}
+          </p>
         </div>
         <Link to="/checkout">
-        <button className="flex border rounded-xl w-2/5 m-auto justify-center pt-3 pb-3">Check Out</button>
+          <button className="flex border rounded-xl w-2/5 m-auto justify-center pt-3 pb-3">
+            Check Out
+          </button>
         </Link>
       </div>
-
     </div>
   );
 };

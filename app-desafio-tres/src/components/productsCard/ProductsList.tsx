@@ -18,7 +18,7 @@ const ProductsList = ({ currentPage, productsPerPage }: ProductsListProps) => {
       setLoading(true);
       setError(null);
       try {
-        const response = await axios.get('http://localhost:4000/products'); // Atualize a URL conforme necessário
+        const response = await axios.get('http://localhost:4000/products');
         setProducts(response.data);
       } catch (error: any) {
         setError('Error fetching products');

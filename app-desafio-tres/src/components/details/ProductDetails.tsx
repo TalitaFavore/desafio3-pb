@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { useDispatch } from 'react-redux';
+import { useDispatch } from "react-redux";
 import { addToCart } from "../../redux/actions/cartActions";
 import NumericInput from "./NumericInput";
 import Stars from "./Stars";
@@ -121,7 +121,12 @@ const ProductDetails = () => {
       </div>
 
       <div className="flex items-center space-x-4 my-4">
-        <NumericInput initialValue={1} min={1} max={100} onValueChange={setQuantity} />
+        <NumericInput
+          initialValue={1}
+          min={1}
+          max={100}
+          onValueChange={setQuantity}
+        />
         <button
           onClick={handleAddToCart}
           className="pl-8 pr-8 pt-3 pb-3 rounded-xl text-black border hover:bg-secondary hover:text-black"

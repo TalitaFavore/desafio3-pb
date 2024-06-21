@@ -276,7 +276,6 @@ const BillingForm = () => {
               className="border rounded-lg border-gray focus:outline-none focus:border-primary w-full h-14 px-2"
             />
           </div>
-
         </form>
       </div>
 
@@ -372,11 +371,11 @@ const BillingForm = () => {
           </p>
         </div>
         <button
-            type="submit"
-            className="flex border rounded-lg pl-16 pr-16 pt-2 pb-2 m-auto mt-10"
-          >
-            Place Order
-          </button>
+          type="submit"
+          className="flex border rounded-lg pl-16 pr-16 pt-2 pb-2 m-auto mt-10"
+        >
+          Place Order
+        </button>
       </div>
     </div>
   );
